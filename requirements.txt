@@ -1,10 +1,9 @@
 matplotlib==3.7.1
 njord==0.0.2
-numpy==1.24.3
+numpy>=1.22,<1.24
 opencv_python==4.7.0.72
 opencv_python_headless==4.8.1.78
 pandas==2.2.0
-Pillow==9.5.0
 Pillow==10.2.0
 pynput==1.7.6
 Requests==2.31.0

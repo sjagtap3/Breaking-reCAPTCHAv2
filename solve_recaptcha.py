@@ -32,9 +32,11 @@ CAPTCHA_URL = "https://www.google.com/recaptcha/api2/demo"
 THRESHOLD = 0.2
 USE_TOP_N_STRATEGY = False
 N = 3
+# CLASSES = ["bicycle", "bridge", "bus", "car", "chimney", "crosswalk", "hydrant", "motorcycle", "other", "palm", "stairs", "traffic"]
+# YOLO_CLASSES = ['bicycle', 'bridge', 'bus', 'car', 'chimney', 'crosswalk', 'hydrant', 'motorcycle', 'mountain', 'other', 'palm', 'traffic']
 CLASSES = ["bicycle", "bridge", "bus", "car", "chimney", "crosswalk", "hydrant", "motorcycle", "other", "palm", "stairs", "traffic"]
-YOLO_CLASSES = ['bicycle', 'bridge', 'bus', 'car', 'chimney', 'crosswalk', 'hydrant', 'motorcycle', 'mountain', 'other', 'palm', 'traffic']
-MODEL = "YOLO" # "YOLO"
+YOLO_CLASSES = ['bicycle', 'bridge', 'bus', 'car', 'chimney', 'crosswalk', 'hydrant', 'motorcycle', 'mountain', 'other', 'palm', 'traffic', 'stairs']
+MODEL = "YOLO"
 TYPE1 = True #one time image selection
 TYPE2 = True #segmentation problem
 TYPE3 = True #dynamic captcha
@@ -43,7 +45,7 @@ ENABLE_VPN = False
 ENABLE_MOUSE_MOVEMENT = True
 ENABLE_NATURAL_MOUSE_MOVEMENT = True
 ENABLE_COOKIES = True
-PATH_TO_FIREFOX_PROFILE = '.../Application Support/Firefox/Profiles/wtjovf77.default-release'
+PATH_TO_FIREFOX_PROFILE = '/Users/mitalimukherjee/Library/Application Support/Firefox/Profiles/8raakye1.default-release'
 
 def set_variables(variables):
     global CAPTCHA_URL, THRESHOLD, USE_TOP_N_STRATEGY, N, CLASSES, YOLO_CLASSES, MODEL, TYPE1, TYPE2, TYPE3, ENABLE_LOGS, ENABLE_VPN, ENABLE_MOUSE_MOVEMENT, ENABLE_NATURAL_MOUSE_MOVEMENT, ENABLE_COOKIES
@@ -184,7 +186,9 @@ def process_tile(i, model, captcha_object, class_index, driver):
     if MODEL == "YOLO":
         result = predict.predict_tile(os.path.join(data_dir, filename))
         current_object_probability = result[0][class_index]
-        object_name = YOLO_CLASSES[result[2]]
+        object_name = YOLO_CLASSES[result[-1]]
+        # model_pred_prob = result[0][result[-1]]
+        print(result)
     else:
         result = predict_tile(img, model)
         current_object_probability = result[0][0][class_index]
@@ -193,7 +197,7 @@ def process_tile(i, model, captcha_object, class_index, driver):
     #rename image
     os.rename(os.path.join(data_dir, filename), os.path.join(data_dir, object_name + "_" + filename))
 
-    print(str(COUNT) + ": The AI predicted tile to be ", object_name, "and probability is",current_object_probability )
+    # print(str(COUNT) + ": The AI predicted tile to be ", object_name, "and probability is",model_pred_prob )
     
     COUNT += 1
     if USE_TOP_N_STRATEGY:
@@ -262,10 +266,15 @@ def open_browser_with_captcha():
         print("VPN connected")
 
     if ENABLE_COOKIES:
-        options = Options()
-        options.profile = PATH_TO_FIREFOX_PROFILE
-        # Initialize the WebDriver with the specified options
-        driver = webdriver.Firefox(options=options)
+        try:
+            options = Options()
+            options.profile = PATH_TO_FIREFOX_PROFILE
+            print(options.profile)
+            # Initialize the WebDriver with the specified options
+            driver = webdriver.Firefox(options=options)
+        except Exception as e:
+            print(f"An error occurred: {e}")  # do not proceed with the solving if the driver is not set up correctly
+            exit()
         print("init with cookies")
     else:
         driver = webdriver.Firefox()
@@ -473,12 +482,15 @@ def reset_globals():
 
 
 def run():
+    print("start")
     model = getFirstModel()
+    print("get model done")
     try:
         driver = open_browser_with_captcha()
     except:
         vpn.disconnect()
         return False
+
     while True:
         
         try:
@@ -498,7 +510,6 @@ def run():
                 driver.find_element(By.ID, "recaptcha-reload-button").click()
                 continue
 
-            
             #check if captcha is solved or still present
             if captcha_is_solved(driver):
                 log("SOLVED", "captcha solved")
