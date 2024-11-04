@@ -1,4 +1,5 @@
 # No CAP(TCHA) - Enhancing CAPTCHA Solvers and Using Adversarial Examples to Make CAPTCHA More Robust
+Mitali Mukherjee, Shrushti Jagtap, Saumitra Chaskar, Arunesh Kumar
 
 ## Overview
 In our study, we build on previous work that focuses on breaking Google’s reCAPTCHA v2 using advanced machine learning-based approaches, specifically object detection. The prior research demonstrates a method that can solve 100% of presented CAPTCHA challenges. However, we have identified several directions for extending this work, which we define as the primary focus of our project.
@@ -31,7 +32,7 @@ This project has the following directory structure:
 - `assets/`: Contains the images used in the README.
 - `IP/`: Contains the script for changing IP address.
   - `vpn.py`: Script for changing IP address (only works on macOS).
-- `models/`: Contains all the models used in the project.
+- `models/`: Contains all the models used in the original project.
   - `YOLO_Classification/`: Contains the YOLO model for classification.
   - `YOLO_Segment/`: Contains the YOLO model for segmentation.
 - `utils/`: Contains utility scripts.
@@ -42,5 +43,10 @@ This project has the following directory structure:
 - `solve_recaptcha.py`: Demo script for solving a single reCAPTCHA challenge using Selenium.
 - `test_environment.py`: Demo script for solving multiple reCAPTCHA challenges using Selenium and creating a log file.
 - `requirements.txt`: Contains the required libraries for the project.
+- `YOLOv11/`: contains our fine-tuned models
+   - `runs/classify/`: contains the `best.pt` file which is the best performing image classification model
+   - `validationScripts`: contains some basic evaluation on the validation dataset
+   - `inference.py`: this file has the detailed inference including the calculation of metrics such as precision and recall which we have used to report our results
+   - `finetune_yolov11.py`: this file is used to train the YOLOv11 model on CAPTCHA images. It is inspired by the original training code from Plesner et al.
 
 
