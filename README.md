@@ -1,5 +1,4 @@
-# No CAP(TCHA)
-# Enhancing CAPTCHA Solvers and Using Adversarial Examples to Make CAPTCHA More Robust
+# No CAP(TCHA) - Enhancing CAPTCHA Solvers and Using Adversarial Examples to Make CAPTCHA More Robust
 
 ## Overview
 In our study, we build on previous work that focuses on breaking Google’s reCAPTCHA v2 using advanced machine learning-based approaches, specifically object detection. The prior research demonstrates a method that can solve 100% of presented CAPTCHA challenges. However, we have identified several directions for extending this work, which we define as the primary focus of our project.
