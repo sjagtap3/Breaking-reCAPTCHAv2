@@ -4,16 +4,15 @@
 In our study, we build on previous work that focuses on breaking Google’s reCAPTCHA v2 using advanced machine learning-based approaches, specifically object detection. The prior research demonstrates a method that can solve 100% of presented CAPTCHA challenges. However, we have identified several directions for extending this work, which we define as the primary focus of our project.
 
 ## Goals
-The goals of our study include:
 
-1. **Improving Accuracy and Confidence**
-   - Update the object detection model to enhance overall prediction accuracy and confidence.
+1. **Improving Prediction Confidence and Enhancing the Overall Solver**
+   - We introduce a more recent model - YOLOv11 to replace YOLOv8, which is expected to enhance the predictive power of the solver. This upgrade aims to make the solver more robust and effective at breaking existing CAPTCHA challenges.
 
-2. **Enhancing Performance on Type 2 reCAPTCHA v2 Challenges**
-   - Fine-tune the existing image segmentation model on a new dataset to improve performance on Type 2 reCAPTCHA v2 challenges.
+2. **Enhancing Performance on Type 2 Challenges through Dataset Augmentation and Model Fine-Tuning**
+   - To improve the solver's performance on Type 2 challenges, we incorporate a new dataset into the fine-tuning pipeline of the solver. This enhancement is essential for improving its image segmentation performance in solving these challenges.
 
-3. **Exploring Adversarial Examples**
-   - Attempt to break the solver using adversarial examples presented in other literature.
+3. **Assessing the Impact of Adversarial Examples on Both the Original and Enhanced Solvers**
+   - We conduct a comparative analysis between the baseline and enhanced solvers, evaluating their robustness against a variety of adversarial examples generated using established methods from the literature.
 
 ## Usage
 - Run `solve_recaptcha.py` to solve a single reCAPTCHA challenge:
