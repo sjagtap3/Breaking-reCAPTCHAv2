@@ -1,0 +1,5 @@
+0.85 Stairs
+0.15 Car
+0.00 Bicycle
+0.00 Bus
+0.00 Traffic Light
