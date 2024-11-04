@@ -25,6 +25,20 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
 from selenium.common.exceptions import WebDriverException
 import traceback
+import logging
+
+captcha_logger = logging.getLogger('captcha_log_handler')
+captcha_logger.setLevel(logging.INFO)
+captcha_file_handler = logging.FileHandler('captcha_log_file.log')
+captcha_file_handler.setLevel(logging.INFO)
+captcha_formatter = logging.Formatter('%(asctime)s - %(message)s')
+captcha_file_handler.setFormatter(captcha_formatter)
+
+captcha_logger.addHandler(captcha_file_handler)
+
+
+def log_captcha(message):
+    captcha_logger.info(message)
 
 
 # Constants
@@ -44,8 +58,9 @@ ENABLE_LOGS = True
 ENABLE_VPN = False
 ENABLE_MOUSE_MOVEMENT = True
 ENABLE_NATURAL_MOUSE_MOVEMENT = True
-ENABLE_COOKIES = True
-PATH_TO_FIREFOX_PROFILE = '/Users/mitalimukherjee/Library/Application Support/Firefox/Profiles/8raakye1.default-release'
+ENABLE_COOKIES = False
+PATH_TO_FIREFOX_PROFILE = '/Users/shrushtijagtap/Library/Application Support/Firefox/Profiles/t741ak41.default-release'
+
 
 def set_variables(variables):
     global CAPTCHA_URL, THRESHOLD, USE_TOP_N_STRATEGY, N, CLASSES, YOLO_CLASSES, MODEL, TYPE1, TYPE2, TYPE3, ENABLE_LOGS, ENABLE_VPN, ENABLE_MOUSE_MOVEMENT, ENABLE_NATURAL_MOUSE_MOVEMENT, ENABLE_COOKIES
@@ -162,7 +177,9 @@ def predict_tile(tile, model):
     to_predict = i.reshape((-1,224,224,3))
     prediction = model.predict(to_predict)
     #return a list of the prediction array, the class name with highest probability and its index 
-    return [ prediction, CLASSES[np.argmax(prediction)], np.argmax(prediction)  ]
+    result = [prediction, CLASSES[np.argmax(prediction)], np.argmax(prediction)]
+    log_captcha(f"Prediction: {result}")
+    return result
 
 
 
@@ -188,7 +205,9 @@ def process_tile(i, model, captcha_object, class_index, driver):
         current_object_probability = result[0][class_index]
         object_name = YOLO_CLASSES[result[-1]]
         # model_pred_prob = result[0][result[-1]]
-        print(result)
+        # print(result)
+        log_captcha(f"Predicted class: {object_name}")
+        log_captcha(f"Prediction output: {result}")
     else:
         result = predict_tile(img, model)
         current_object_probability = result[0][0][class_index]
@@ -196,6 +215,9 @@ def process_tile(i, model, captcha_object, class_index, driver):
 
     #rename image
     os.rename(os.path.join(data_dir, filename), os.path.join(data_dir, object_name + "_" + filename))
+    
+    log_captcha(f"Predicted class: {object_name}")
+    log_captcha(f"Prediction output: {result}")
 
     # print(str(COUNT) + ": The AI predicted tile to be ", object_name, "and probability is",model_pred_prob )
     
@@ -228,12 +250,14 @@ def solve_type2(driver):
     captcha_text = captcha_text.text
 
     log("Type2", captcha_text)
+    log_captcha("Type 2 captcha encountered")
 
     #get the class index of the captcha object if found.
     for i in CLASSES:
         if i in captcha_text:
             class_index = CLASSES.index(i)
             #print("class index is ", str(class_index))
+            log_captcha(f"Predicted class: {class_index}")
 
     img = driver.find_element(By.XPATH, xpath_image)
     img_url = img.get_attribute("src")
@@ -357,7 +381,7 @@ def handle_dynamic_captcha(driver, model, captcha_object, class_index, to_check)
 
                 break
 
-
+fails = 0
 
 def captcha_is_solved(driver):
     #wait 1 second
@@ -370,9 +394,12 @@ def captcha_is_solved(driver):
         checkbox = driver.find_element(By.XPATH, '//*[@id="recaptcha-anchor"]')
         if checkbox.get_attribute('aria-checked') == 'true':
             print("captcha is solved")
+            log_captcha("Captcha solved successfully")
             return True
         else:
             print("captcha is not solved yet")
+            fails += 1
+            log_captcha(f"Captcha not solved, failed till now: {fails}")
             return False
     except:
         #print("captcha element not found")
@@ -383,12 +410,12 @@ def captcha_is_solved(driver):
         WebDriverWait(driver, 20).until(EC.frame_to_be_available_and_switch_to_it((By.XPATH,"//iframe[@title='recaptcha challenge expires in two minutes']")))
     
 
-
 def solve_classification_type(driver, model, dynamic_captcha):
      #Get the object of the captcha where we suppose to look for
     captcha_object = driver.find_element(By.ID, 'rc-imageselect').find_element(By.TAG_NAME, 'strong')
     #print("The object to look for is ", captcha_object.text)
     class_index = get_class_index(captcha_object) 
+    log_captcha("Classification type captcha encountered")
     
     if dynamic_captcha:
         log("dynamic", captcha_object.text)
@@ -483,6 +510,7 @@ def reset_globals():
 
 def run():
     print("start")
+    log_captcha(f"************** New attempt started **************")
     model = getFirstModel()
     print("get model done")
     try:
@@ -490,10 +518,13 @@ def run():
     except:
         vpn.disconnect()
         return False
+    counter = 0
 
     while True:
+        counter += 1
         
         try:
+            log_captcha(f"Captcha solving process started, count: {counter}")
             #check type of captcha
             if "squares" in driver.find_element(By.ID, 'rc-imageselect').text and TYPE2:
                 print("found a 4x4 segmentation problem") 
@@ -509,15 +540,20 @@ def run():
             else:
                 driver.find_element(By.ID, "recaptcha-reload-button").click()
                 continue
-
+            
             #check if captcha is solved or still present
             if captcha_is_solved(driver):
+                log_captcha(f"Captcha is now solved, total attempts: {counter}")
                 log("SOLVED", "captcha solved")
+                log_captcha(f"*************************************")
                 driver.close()
                 vpn.disconnect()
                 break
+            
+            
         except Exception as e:
             print("error occured:", e)
+            log_captcha(f"Error occurred: {e}")
             traceback.print_exc()
             vpn.disconnect()
             if captcha_is_solved(driver):
