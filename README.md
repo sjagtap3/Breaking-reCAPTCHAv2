@@ -1,16 +1,23 @@
-# Breaking-reCAPTCHAv2
-Code for the paper `Breaking reCAPTCHAv2` accepted at COMPSAC 2024.
+# No CAP(TCHA)
+# Enhancing CAPTCHA Solvers and Using Adversarial Examples to Make CAPTCHA More Robust
 
-## Introduction
-CAPTCHAs (Completely Automated Public Turing Tests to Tell Computers and Humans Apart) have been a vital security measure on the internet, protecting websites from automated bots and malicious activities. However, with the rapid advancements in machine learning and artificial intelligence, the effectiveness of CAPTCHAs in distinguishing between humans and machines has come into question.
+## Overview
+In our study, we build on previous work that focuses on breaking Google’s reCAPTCHA v2 using advanced machine learning-based approaches, specifically object detection. The prior research demonstrates a method that can solve 100% of presented CAPTCHA challenges. However, we have identified several directions for extending this work, which we define as the primary focus of our project.
 
-This semester project focuses on Google's reCAPTCHAv2 system, which is widely used across the web. We aim to analyze the effectiveness of reCAPTCHAv2 in rejecting bots using advanced deep learning models such as YOLO (You Only Look Once). Our research explores the vulnerabilities of image-based CAPTCHAs and develops efficient methods to solve them using state-of-the-art machine learning techniques.
+## Goals
+The goals of our study include:
 
-Our main findings include:
+1. **Improving Accuracy and Confidence**
+   - Update the object detection model to enhance overall prediction accuracy and confidence.
 
-- We can solve 100% of the CAPTCHAs presented by reCAPTCHAv2, surpassing the success rates of previous works, which range from 68% to 71%.
-- There is no significant difference in the number of challenges required by humans and bots to solve CAPTCHAs in reCAPTCHAv2, suggesting that current AI technologies can effectively exploit advanced image-based CAPTCHAs.
-- reCAPTCHAv2 heavily relies on cookie and browser history data when evaluating whether a user is human or not, highlighting the importance of considering user-specific data in CAPTCHA design.
+2. **Enhancing Performance on Type 2 reCAPTCHA v2 Challenges**
+   - Fine-tune the existing image segmentation model on a new dataset to improve performance on Type 2 reCAPTCHA v2 challenges.
+
+3. **Exploring Adversarial Examples**
+   - Attempt to break the solver using adversarial examples presented in other literature.
+
+## Expected Outcomes
+We hope that our extensions will yield significant performance gains and valuable insights related to the security and robustness of reCAPTCHA v2, benefiting future research efforts.
 
 
 | CAPTCHA Example | CAPTCHA Result |
