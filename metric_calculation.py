@@ -16,11 +16,11 @@ def calculate_statistics(csv_file):
         print(f"Quartiles: Q1={quartiles[0]}, Q2={quartiles[1]}, Q3={quartiles[2]}")
         print()
 
-csv_file = 'captcha_data_v11_novpn.csv'
+csv_file = 'captcha_data_v11_novpn_stats.csv'
 calculate_statistics(csv_file)
 
 
-# captcha_data_baseline_novpn.csv
+# captcha_data_baseline_novpn_stats.csv
 # Statistics for classification_type:
 # Mean: 24.42
 # Median: 1.0
@@ -34,14 +34,13 @@ calculate_statistics(csv_file)
 # Quartiles: Q1=0.0, Q2=1.0, Q3=2.0
 
 # Statistics for total_attempts:
-# Mean: 35.74
-# Median: 35.0
-# Mode: 22
-# Quartiles: Q1=27.25, Q2=35.0, Q3=44.75
+# Mean: 26.06
+# Median: 2.5
+# Mode: 1
+# Quartiles: Q1=1.0, Q2=2.5, Q3=14.25
 
 
-
-# captcha_data_v11_novpn.csv'
+# captcha_data_v11_novpn_stats.csv
 # Statistics for classification_type:
 # Mean: 21.22
 # Median: 1.0
@@ -55,7 +54,7 @@ calculate_statistics(csv_file)
 # Quartiles: Q1=0.0, Q2=2.0, Q3=2.0
 
 # Statistics for total_attempts:
-# Mean: 33.42
-# Median: 29.5
-# Mode: 28
-# Quartiles: Q1=25.25, Q2=29.5, Q3=40.75
+# Mean: 22.86
+# Median: 3.0
+# Mode: 1
+# Quartiles: Q1=1.0, Q2=3.0, Q3=5.75

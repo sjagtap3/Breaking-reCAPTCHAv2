@@ -11,8 +11,6 @@ def parse_log_file(log_file):
     with open(log_file, 'r') as f:
         for line in f:
             if "************** New attempt started **************" in line:
-                if attempt_data["total_attempts"] > 0:
-                    attempts.append(attempt_data)
                 attempt_data = {
                     "classification_type": 0,
                     "type_2": 0,
@@ -23,11 +21,8 @@ def parse_log_file(log_file):
             elif "Type 2 captcha encountered" in line:
                 attempt_data["type_2"] += 1
             elif "Captcha is now solved, total attempts:" in line:
-                attempt_data["total_attempts"] = int(line.split(":")[1].strip())
-
-        # Append the last attempt
-        if attempt_data["total_attempts"] > 0:
-            attempts.append(attempt_data)
+                attempt_data["total_attempts"] = int(line.split(":")[-1].strip())
+                attempts.append(attempt_data)
 
     return attempts
 
@@ -38,8 +33,9 @@ def save_to_csv(data, csv_file):
         writer.writeheader()
         writer.writerows(data)
 
-log_file = 'captcha_log_file_v11.log'
-csv_file = 'captcha_data_v11_novpn.csv'
+
+log_file = 'captcha_log_file_baseline.log'
+csv_file = 'captcha_data_baseline_novpn_stats.csv'
 
 data = parse_log_file(log_file)
 save_to_csv(data, csv_file)
