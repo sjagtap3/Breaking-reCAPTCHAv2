@@ -1,0 +1,18 @@
+path: ..\datasets\captcha\ # dataset root dir
+train: train.txt
+val: val.txt
+
+names:
+0 :  Bicycle
+1 :  Bridge
+2 :  Bus
+3 :  Car
+4 :  Chimney
+5 :  Crosswalk
+6 :  Hydrant
+7 :  Motorcycle
+8 :  Mountain
+9 :  Other
+10 :  Palm
+11 :  Stairs
+12 :  Traffic Light

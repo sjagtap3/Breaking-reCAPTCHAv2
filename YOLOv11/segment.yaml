@@ -1,0 +1,13 @@
+train: segment/train/images
+# val: segment/valid/images
+val: segment/test/images
+
+nc: 10
+names: ['bicycles', 'buses', 'chimneys', 'crosswalks', 'fire_hydrants', 'motorcycles', 'stairs', 'taxis', 'tractors', 'traffic_lights']
+
+roboflow:
+  workspace: googlerectapcha
+  project: google-rectapcha-image-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/googlerectapcha/google-rectapcha-image-detection/dataset/1
