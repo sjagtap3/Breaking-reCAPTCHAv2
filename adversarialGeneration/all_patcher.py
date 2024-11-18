@@ -13,14 +13,30 @@ import torchvision
 from datetime import datetime
 import os
 from ultralytics import YOLO  # For YOLO v11, but if you're not using Ultralytics, replace this with your own model definition.
+from collections import defaultdict
+import logging
+
+base_image_dir = "..\..\yolov11_breaker\ds\img"
+base_output_image_dir = "..\..\yolov11_breaker\ds\patched_images"
+log_dir = "../logs"
 
 
-base_image_dir = "..\yolov11_breaker\ds\img"
-base_output_image_dir = "..\yolov11_breaker\ds\patched_images"
+curr_time = datetime.now().strftime("%Y%m%d_%H%M%S")
+log_file = os.path.join(log_dir, f"patcher_{curr_time}.log")
 
+logging.basicConfig(filename=log_file, level=logging.INFO, 
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+
+def log_and_print(message):
+    print(message)
+    logging.info(message)
 
 # Load an example image
 def load_image(image_path):
+
+    log_and_print(f"Loading image from {image_path}")
+
     image = Image.open(image_path).convert("RGB")
     return transform(image).unsqueeze(0)
 
@@ -39,8 +55,7 @@ def visualize_image(image_tensor):
     plt.show()
 
 
-def train_patch(image_path, target_class, patch_size=(50, 50), num_steps=500, lr=0.05):
-    image = load_image(image_path)
+def train_patch(image, target_class, patch_size=(50, 50), num_steps=500, lr=0.05):
     
     # Initialize random patch with the required size
     patch = torch.rand((3, *patch_size), requires_grad=True)
@@ -68,71 +83,97 @@ def train_patch(image_path, target_class, patch_size=(50, 50), num_steps=500, lr
         
         # Get the predicted label
         _, predicted_idx = torch.max(output, 1)
-        predicted_label = predicted_idx.item()
+        predicted_label = labels[predicted_idx.item()]
         
-        # # Check if the predicted label matches the target class
-        # if predicted_label == target_class:
-        #     consecutive_count += 1
-        # else:
-        #     consecutive_count = 0  # Reset the counter if it doesn't match
         
         # Print training progress every 50 steps
         if step % 50 == 0:
             _, predicted_idx = torch.max(output, 1)
             predicted_label = labels[predicted_idx.item()]
-            print(f"Step {step}, Loss: {loss.item()}, Predicted label: {predicted_label}")
+            log_and_print(f"Step {step}, Loss: {loss.item()}, Predicted label: {predicted_label}")
+
+
+        # Check if the target class is matched for 5 consecutive steps, this is checked more frequently        
+        if step % 10 == 0:
+            # If we have 5 consecutive steps where predicted label equals target class, stop training
 
             if predicted_idx.item() == target_class:
-                consecutive_count += 1
+                    consecutive_count += 1
             else:
                 consecutive_count = 0  # Reset the counter if it doesn't match
 
-            
-            # If we have 5 consecutive steps where predicted label equals target class, stop training
             if consecutive_count >= max_consecutive:
-                print(f"Target class matched for {max_consecutive} consecutive steps. Stopping training.")
+                log_and_print(f"Target class matched for {max_consecutive} consecutive steps. Stopping training.")
                 break
 
-    return patch
+    return patch, predicted_label
 
 
-def image_patcher(image_path, target_class, patch_size):
-    image = load_image(image_path)
-    patch = train_patch(image, target_class, patch_size)
+def image_patcher(image, target_class, patch_size):
+    patch, predicted_label = train_patch(image, target_class, patch_size)
     patched_image = apply_patch_direct(image, patch, (0, 0))
-    return patched_image
+    return patched_image, predicted_label
 
 
-def persist_patched_image(image_path, target_class, patch_size, save_path):
-    patched_image = image_patcher(image_path, target_class, patch_size)
+def persist_patched_image(image, target_class, patch_size, save_path):
+    patched_image, predicted_label = image_patcher(image, target_class, patch_size)
     # visualize_image(patched_image)
     patched_image_np = patched_image.squeeze().permute(1, 2, 0).detach().cpu().numpy()
-    plt.imsave(save_path, np.clip(patched_image_np, 0, 1))
+
+    save_path_with_adv_label = save_path.replace("<ADV_LABEL>", predicted_label)
+
+    label_data = save_path_with_adv_label.split("/")[1].split("_")
+    true_label = label_data[0]
+    base_label = label_data[1]  
+    predicted_label = label_data[2]
+
+    # Log the true lable, predicted label and the adversarial label
+    log_and_print(f"True label: {true_label}, Base label: {base_label}, Adversarial label: {predicted_label}")
+
+    plt.imsave(save_path_with_adv_label, np.clip(patched_image_np, 0, 1))
 
 
 
-def iterate_over_images(model, image_paths, patch_size, save_dir):
+def iterate_over_images(model, patch_size):
+
+    start_time = datetime.now()
+    log_and_print(f"Patching start time: {start_time}")
 
     labels = ['bicycle', 'bridge', 'bus', 'car', 'chimney', 'crosswalk', 'hydrant', 'motorcycle', 'mountain', 'other', 'palm', 'traffic', 'stairs']
     image_infos = [[os.path.join(base_image_dir, fname), fname] for fname in os.listdir(base_image_dir) if fname.endswith(('.png', '.jpg', '.jpeg'))]
 
+    
+    true_label_counts = defaultdict(lambda :0)
+    max_records_per_class = 100
+
     for image_info in image_infos:
+        filepath = image_info[0]
+        filename = image_info[1]
+
+        true_label = filename.split(" ")[0]
+        if true_label_counts[true_label] >= max_records_per_class:
+            log_and_print(f"Skipping {true_label} as it has reached the max records per class")
+            continue
+
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        image = load_image(image_path)
+        image = load_image(filepath)
         output = model(image)
         _, predicted_idx = torch.max(output, 1)
+
         predicted_label = labels[predicted_idx.item()]
 
-        # Find the index of the predicted_label label in the labels list, default to 9 if not found
-        adversarial_label = (labels.index(predicted_label)+3)%len(labels)  # Shift by 3 to get a different class
+        adversarial_label = (labels.index(predicted_label) + 3) % len(labels)
 
-        
+        persist_patched_image(image, adversarial_label, patch_size, f"{base_output_image_dir}/{true_label}_{predicted_label}_<ADV_LABEL>_{timestamp}.png")
 
-        # True label
-        true_label = image_info[1].split(" ")[0]
+        true_label_counts[true_label] += 1
 
-        persist_patched_image(image_path, target_class, patch_size, f"{save_dir}/{true_label}_{predicted_label}_{adversarial_label}_{timestamp}.png")
+    
+    end_time = datetime.now()
+    log_and_print(f"Patching end time: {end_time}")
 
+    total_time = end_time - start_time
+    log_and_print(f"Total time taken: {total_time}")
 
 
 
@@ -163,39 +204,6 @@ if __name__ == "__main__":
         #transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
     ])
 
-
-# Example usage: Define the target class and train the patch on an example image
-target_class = 11  # Replace with your desired target class index
-image_path = "../assets/Stair_3.png"  # Replace with the path to your image
-trained_patch = train_patch(image_path, target_class, patch_size=(50, 50), num_steps=500, lr=0.05)
-
-
-# Save the trained adversarial patch
-torch.save(trained_patch, "adversarial_patch_direct.pt")
-
-# Load image and apply the adversarial patch for evaluation
-image = load_image(image_path)
-
-# Original label
-output = model(image)
-_, original_idx = torch.max(output, 1)
-original_label = labels[original_idx.item()]
-
-patched_image = apply_patch_direct(image, trained_patch, (0, 0))  # Place the patch in the same position used during training
-
-# Visualize the patched image
-visualize_image(patched_image)
-
-# Classify the patched image
-output = model(patched_image)
-
-# results = model.predict(patched_image, save=True, save_txt=True, save_conf=True, show_boxes=True, save_crop=True)
-# print(results)
-_, predicted_idx = torch.max(output, 1)
-predicted_label = labels[predicted_idx.item()]
-
-# Store the patched image
-patched_image_np = patched_image.squeeze().permute(1, 2, 0).detach().cpu().numpy()
-timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-plt.imsave(f"../../yolov11_breaker/sample_missclassifications/{original_label}_to_{predicted_label}_at_{timestamp}.png", np.clip(patched_image_np, 0, 1))
-
+    patch_size=(50, 50)
+    iterate_over_images(model, patch_size)
+    
