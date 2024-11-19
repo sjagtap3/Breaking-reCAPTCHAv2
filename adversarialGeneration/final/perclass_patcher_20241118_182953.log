@@ -1,0 +1,26 @@
+2024-11-18 18:29:53,425 - INFO - Patching start time: 2024-11-18 18:29:53.424735
+2024-11-18 18:29:53,458 - INFO - True label: bicycle, Intended Adversarial label: car
+2024-11-18 18:30:06,773 - INFO - **** True Label: bicycle, Adversarial Label: car, Skipped: 764, Retrained: 15
+2024-11-18 18:30:06,773 - INFO - True label: bridge, Intended Adversarial label: chimney
+2024-11-18 18:30:12,529 - INFO - **** True Label: bridge, Adversarial Label: chimney, Skipped: 530, Retrained: 2
+2024-11-18 18:30:12,529 - INFO - True label: bus, Intended Adversarial label: crosswalk
+2024-11-18 18:30:30,615 - INFO - **** True Label: bus, Adversarial Label: crosswalk, Skipped: 1189, Retrained: 19
+2024-11-18 18:30:30,615 - INFO - True label: car, Intended Adversarial label: hydrant
+2024-11-18 18:31:11,607 - INFO - **** True Label: car, Adversarial Label: hydrant, Skipped: 3539, Retrained: 18
+2024-11-18 18:31:11,607 - INFO - True label: chimney, Intended Adversarial label: motorcycle
+2024-11-18 18:31:14,638 - INFO - **** True Label: chimney, Adversarial Label: motorcycle, Skipped: 119, Retrained: 4
+2024-11-18 18:31:14,638 - INFO - True label: crosswalk, Intended Adversarial label: mountain
+2024-11-18 18:32:34,764 - INFO - **** True Label: crosswalk, Adversarial Label: mountain, Skipped: 367, Retrained: 99
+2024-11-18 18:32:34,764 - INFO - True label: hydrant, Intended Adversarial label: other
+2024-11-18 18:32:48,208 - INFO - **** True Label: hydrant, Adversarial Label: other, Skipped: 943, Retrained: 8
+2024-11-18 18:32:48,208 - INFO - True label: motorcycle, Intended Adversarial label: palm
+2024-11-18 18:32:53,017 - INFO - **** True Label: motorcycle, Adversarial Label: palm, Skipped: 75, Retrained: 5
+2024-11-18 18:32:53,018 - INFO - True label: other, Intended Adversarial label: stairs
+2024-11-18 18:33:06,536 - INFO - **** True Label: other, Adversarial Label: stairs, Skipped: 1336, Retrained: 3
+2024-11-18 18:33:06,536 - INFO - True label: palm, Intended Adversarial label: bicycle
+2024-11-18 18:33:18,467 - INFO - **** True Label: palm, Adversarial Label: bicycle, Skipped: 903, Retrained: 7
+2024-11-18 18:33:18,467 - INFO - True label: stairs, Intended Adversarial label: bus
+2024-11-18 18:33:21,975 - INFO - **** True Label: stairs, Adversarial Label: bus, Skipped: 208, Retrained: 2
+2024-11-18 18:33:21,976 - INFO - True label: traffic, Intended Adversarial label: bridge
+2024-11-18 18:33:36,139 - INFO - Patching end time: 2024-11-18 18:33:36.139844
+2024-11-18 18:33:36,139 - INFO - Total time taken: 0:03:42.715109
