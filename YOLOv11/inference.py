@@ -2,11 +2,14 @@ from ultralytics import YOLO
 from glob import glob
 from sklearn.metrics import precision_score, recall_score, accuracy_score
 import numpy as np
+import torch
+
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 if __name__ == '__main__':
-    """CLassification model"""
-    # model = YOLO("./runs/classify/BEST_grid_train_21/weights/best.pt")
-    model = YOLO("models/baseline_v8.pt")
+    """CLassification model metrics on test set"""
+    model = YOLO("./runs/classify/BEST_grid_train_21/weights/best.pt")
+    # model = YOLO("models/baseline_v8.pt")
 
     # results = model.predict("./datasets/inference.jpg", device=0, save=True, save_txt=True, save_conf=True, show_boxes=True, save_crop=True)
     # print(results)
@@ -16,7 +19,8 @@ if __name__ == '__main__':
     prev_class = None
 
     # Define the folder path
-    path = "./datasets/captcha/test/*"
+    # path = "./datasets/captcha/test/*"
+    path = "adversarial_patch/patched_images_yolo/*"
 
     # Dictionary to map class names
     class_name_map = {
@@ -63,6 +67,7 @@ if __name__ == '__main__':
     print(f"Macro Averaged recall: {recall_score(gts, preds, average='macro')}")
     print(f"Overall accuracy: {accuracy_score(gts, preds)}")
 
+    """Classification model metrics on val set"""
     # # get per class precision and recall
     # path = "./datasets/captcha/val/*"
     # for folder in glob(path):
@@ -91,7 +96,7 @@ if __name__ == '__main__':
 
 
     # """Segmentation model"""
-    # # model = YOLO("runs/segment/train2/weights/best.pt")
+    # model = YOLO("runs/segment/train2/weights/best.pt")
     # model = YOLO("models/baseline_v8_seg.pt")
     
     # # need to change val as test in the yaml file so that ultralytics picks it up instead of the val set which is already used

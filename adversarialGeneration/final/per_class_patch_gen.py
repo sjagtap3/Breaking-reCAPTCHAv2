@@ -17,8 +17,8 @@ from collections import defaultdict
 import logging
 
 base_image_dir = "datasets/captcha/test"
-base_output_image_dir = "adversarial_patch/perclass_patched_images"
-base_output_patch_dir = "adversarial_patch/patches"
+base_output_image_dir = "adversarial_patch/patched_images_baseline"
+base_output_patch_dir = "adversarial_patch/patches_baseline"
 log_dir = "adversarial_patch/logs"
 
 
@@ -136,6 +136,24 @@ def persist_patched_image(image, target_class, patch_size, save_path, patch=None
     return patch
 
 
+def apply_patch_and_save(true_label, patch):
+    reverse_map = {
+        "crosswalk": "cross",
+        "traffic": "tlight",
+        "stairs": "stair"
+    }
+    true_label = reverse_map.get(true_label, true_label)
+    image_paths = [os.path.join(base_image_dir, fname) for fname in os.listdir(base_image_dir) if (fname.endswith(('.png', '.jpg', '.jpeg')) and true_label in fname.lower())]
+    print(f"Found {len(image_paths)} images for {true_label}")
+    
+    for image_path in image_paths:
+        fname = image_path.split("\\")[-1]
+        image = load_image(image_path)
+        patched_image = apply_patch_direct(image, patch, (0, 0))
+        patched_image_np = patched_image.squeeze().permute(1, 2, 0).detach().cpu().numpy()
+        save_path = os.path.join(base_output_image_dir, fname)
+        plt.imsave(save_path, np.clip(patched_image_np, 0, 1))
+
 
 def iterate_over_images(model, patch_size):
 
@@ -169,7 +187,8 @@ def iterate_over_images(model, patch_size):
             continue
 
         if prev_true_label != true_label:
-            # new label encountered so need to save patch of previous label
+            # new label encountered so need to save patch and patched images of previous label
+            apply_patch_and_save(prev_true_label, patch)
             # save tensor first
             torch.save(patch, f"{base_output_patch_dir}/{prev_true_label}_{adversarial_label}_patch.pt")
             patch = patch.squeeze().permute(1, 2, 0).detach().cpu().numpy()
@@ -177,7 +196,7 @@ def iterate_over_images(model, patch_size):
             log_and_print(f"**** True Label: {prev_true_label}, Adversarial Label: {adversarial_label}, Skipped: {skip_count}, Retrained: {retrain_count}")
 
             prev_true_label = true_label
-            print("\n\n\n\n\n\n NEW LABEL", true_label)
+            print("\n\n NEW LABEL", true_label)
             patch = None
             skip_count = 0
             retrain_count = 0
@@ -210,7 +229,12 @@ def iterate_over_images(model, patch_size):
         
         true_label_counts[true_label] += 1
 
-    
+    apply_patch_and_save(prev_true_label, patch)
+    log_and_print(f"**** True Label: {prev_true_label}, Adversarial Label: {adversarial_label}, Skipped: {skip_count}, Retrained: {retrain_count}")
+    torch.save(patch, f"{base_output_patch_dir}/{prev_true_label}_{adversarial_label}_patch.pt")
+    patch = patch.squeeze().permute(1, 2, 0).detach().cpu().numpy()
+    plt.imsave(f"{base_output_patch_dir}/{prev_true_label}_{adversarial_label}_patch.png", np.clip(patch, 0, 1))
+
     end_time = datetime.now()
     log_and_print(f"Patching end time: {end_time}")
 
@@ -224,10 +248,12 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # Load the model architecture (For YOLOv11 or similar, you would load it like this)
-    model = YOLO("runs/classify/BEST_grid_train_21/weights/best.pt").to(device)  # Use the Ultralytics YOLO class
+    # model = YOLO("runs/classify/BEST_grid_train_21/weights/best.pt").to(device)  # Use the Ultralytics YOLO class
+    model = YOLO("models/baseline_v8.pt").to(device) 
 
     # Load the saved state dict
-    checkpoint = torch.load("runs/classify/BEST_grid_train_21/weights/best.pt", map_location=device)
+    # checkpoint = torch.load("runs/classify/BEST_grid_train_21/weights/best.pt", map_location=device)
+    checkpoint = torch.load("models/baseline_v8.pt", map_location=device)
 
     # If the saved file is only the model weights (state_dict), you need to load them manually
     model = checkpoint['model'].to(device).to(torch.float32)  # Load the model to the device and set the datatype to float32
