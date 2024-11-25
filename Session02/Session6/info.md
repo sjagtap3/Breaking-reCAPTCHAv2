@@ -1,1 +1,0 @@
-with vpn, all types of captcha
