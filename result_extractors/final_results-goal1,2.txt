@@ -1,0 +1,56 @@
+***************************************************************
+Best Models - With VPN
+Statistics for classification_type:
+Mean: 5.448275862068965
+Median: 1.0
+
+Statistics for type_2:
+Mean: 1.8636363636363635
+Median: 1.5
+
+Statistics for total_attempts:
+Mean: 4.738095238095238
+Median: 2.0
+
+***************************************************************
+Baseline - With VPN
+Statistics for classification_type:
+Mean: 4.5
+Median: 2.0
+
+Statistics for type_2:
+Mean: 4.0
+Median: 4.0
+
+Statistics for total_attempts:
+Mean: 6.16
+Median: 3.0
+***************************************************************
+Best Models - Without VPN
+Statistics for classification_type:
+Mean: 17.15
+Median: 1.0
+
+Statistics for type_2:
+Mean: 5.516129032258065
+Median: 2.0
+
+Statistics for total_attempts:
+Mean: 17.16
+Median: 3.0
+
+***************************************************************
+Baseline - Without VPN
+Statistics for classification_type:
+Mean: 28.3953488372093
+Median: 1.0
+
+Statistics for type_2:
+Mean: 2.8214285714285716
+Median: 2.0
+
+Statistics for total_attempts:
+Mean: 26.06
+Median: 2.5
+
+***************************************************************

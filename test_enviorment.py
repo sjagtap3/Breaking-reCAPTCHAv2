@@ -45,5 +45,6 @@ for parameters in parameter_combinations:
 """
 
 for i in range(1, 51):
+    print("CHALLLEENGEEEEEE #######", i)
     solve_recaptcha.run()
     solve_recaptcha.reset_globals()

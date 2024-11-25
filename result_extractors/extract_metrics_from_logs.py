@@ -34,8 +34,8 @@ def save_to_csv(data, csv_file):
         writer.writerows(data)
 
 
-log_file = 'captcha_log_file_novpn_bestmodels.log'
-csv_file = 'captcha_data_baseline_novpn_bestmodels_stats.csv'
+log_file = 'captcha_log_file_baseline_vpn.log'
+csv_file = 'captcha_log_file_baseline_vpn_stats.csv'
 
 data = parse_log_file(log_file)
 save_to_csv(data, csv_file)

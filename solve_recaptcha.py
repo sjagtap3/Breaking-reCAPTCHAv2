@@ -29,7 +29,7 @@ import logging
 
 captcha_logger = logging.getLogger('captcha_log_handler')
 captcha_logger.setLevel(logging.INFO)
-captcha_file_handler = logging.FileHandler('captcha_log_file_baseline_vpn.log')
+captcha_file_handler = logging.FileHandler('captcha_log_file_bestmodels_vpn.log')
 captcha_file_handler.setLevel(logging.INFO)
 captcha_formatter = logging.Formatter('%(asctime)s - %(message)s')
 captcha_file_handler.setFormatter(captcha_formatter)
