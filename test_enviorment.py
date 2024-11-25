@@ -44,6 +44,6 @@ for parameters in parameter_combinations:
         print(f"An error occurred with parameters {parameters}: {e}")
 """
 
-for i in range(1, 26):
+for i in range(1, 24):
     solve_recaptcha.run()
     solve_recaptcha.reset_globals()

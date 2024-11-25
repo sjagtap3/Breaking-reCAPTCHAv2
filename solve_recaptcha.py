@@ -257,21 +257,23 @@ def solve_type2(driver):
         if i in captcha_text:
             class_index = CLASSES.index(i)
             #print("class index is ", str(class_index))
-            log_captcha(f"Predicted class: {class_index}")
+            log_captcha(f"To find class seg: {class_index} {captcha_text}")
 
     img = driver.find_element(By.XPATH, xpath_image)
     img_url = img.get_attribute("src")
     response = requests.get(img_url, stream=True)
     # Check if the request was successful
     if response.status_code == 200:
+        # print("##### in response")
         # Get the current timestamp and convert it to a string
         timestamp = str(time.time())
         # Open a file in write-binary mode and save the image to it
         filename = f"image_{captcha_text}_{timestamp}.png"  # Save the screenshot as .png
         with open(os.path.join(save_path, filename), 'wb') as f:
             f.write(response.content)
+        # print("##### before predict")
         success, grid = predict_segment.predict(class_index, os.path.join(save_path, filename))
-        #print(grid)
+        # print(grid)
 
         xpath_tiles = "/html/body/div/div/div[2]/div[2]/div/table/tbody"
         tiles_to_click = [(i+1, j+1) for i in range(4) for j in range(4) if grid[i][j] == 1]
@@ -403,10 +405,12 @@ def captcha_is_solved(driver):
             return False
     except:
         #print("captcha element not found")
+        log_captcha("Captcha not solved")
         return False
     finally:
         # Switch back to the main content
         driver.switch_to.default_content()
+        log_captcha("Captcha not solved")
         WebDriverWait(driver, 20).until(EC.frame_to_be_available_and_switch_to_it((By.XPATH,"//iframe[@title='recaptcha challenge expires in two minutes']")))
     
 
@@ -549,6 +553,8 @@ def run():
                 driver.close()
                 vpn.disconnect()
                 break
+            else:
+                log_captcha(f"Captcha is not solved, next: {counter}")
             
             
         except Exception as e:

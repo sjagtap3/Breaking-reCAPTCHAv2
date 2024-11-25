@@ -5,7 +5,9 @@ import torch
 from torchvision import transforms
 import cv2
 
-CLASSES = ["bicycle", "bridge", "bus", "car", "chimney", "crosswalk", "hydrant", "motorcycle", "other", "palm", "stairs", "traffic"]
+
+CLASSES = ['bicycles', 'buses', 'chimneys', 'crosswalks', 'fire_hydrants', 'motorcycles', 'stairs', 'taxis', 'tractors', 'traffic_lights']
+# ["bicycle", "bridge", "bus", "car", "chimney", "crosswalk", "hydrant", "motorcycle", "other", "palm", "stairs", "traffic"]
 """{0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5: 'bus',
       6: 'train', 7: 'truck', 8: 'boat', 9: 'traffic light', 10: 'fire hydrant', 11: 'stop sign',
         12: 'parking meter', 13: 'bench', 14: 'bird', 15: 'cat', 16: 'dog', 17: 'horse', 18: 'sheep',
@@ -21,18 +23,24 @@ CLASSES = ["bicycle", "bridge", "bus", "car", "chimney", "crosswalk", "hydrant",
                             72: 'refrigerator', 73: 'book', 74: 'clock', 75: 'vase', 76: 'scissors',
                               77: 'teddy bear', 78: 'hair drier', 79: 'toothbrush'}
 """
-MAPPING = [(1, 0), (5, 2), (2, 3), (10, 6), (3,7), (9, 11)] # mapping from COCO to captcha classes
+
+# oldCLASSES = ["bicycle", "bridge", "bus", "car", "chimney", "crosswalk", "hydrant", "motorcycle", "other", "palm", "stairs", "traffic"]
+MAPPING = [(0,0), (2,1), (3,7), (4,2), (5,3), (6,4), (7,5), (10,6), (11,9)] # mapping from COCO to captcha classes
 # Load a pretrained YOLOv8n model
-model = YOLO('yolov8n-seg.pt')
+
+model = YOLO('/Users/shrushtijagtap/uiuc/Fall2024/CS562/BreakV2Captcha/best-seg.pt')
 
 
 
 def predict(class_number, image_path):
   class_id_searched = None
   for map in MAPPING:
-    if map[1] == class_number:
-      class_id_searched = map[0]
+    if map[0] == class_number:
+      class_id_searched = map[1]
       break
+  
+  # print("****** class number", class_number)
+  # print("****** class id searched", class_id_searched)
   
   img = Image.open(image_path)
 
@@ -40,6 +48,8 @@ def predict(class_number, image_path):
   image_width, image_height = img.size
 
   results = model.predict(image_path, save=False, imgsz=320, conf=0.5, visualize=False)
+  # print(results)
+  
 
   # Define the grid
   grid_size = 4
@@ -53,13 +63,16 @@ def predict(class_number, image_path):
     #print(result)
     for i, class_id in enumerate(result.boxes.cls):
       class_id = int(class_id.item())
+      # print("****** class number", class_number)
+      # print("****** class id", class_id)
+      # print("****** class id searched", class_id_searched)
       if class_id_searched == class_id:
         class_found = True
 
         # Get the class name
         class_name = result.names[class_id]
 
-        #print(f"Predicted class: {class_name}")
+        # print(f"**in seg model ** Predicted class: {class_name}")
 
         # Get the mask
         mask_segments = result.masks[i].xy

@@ -6,7 +6,7 @@ def calculate_statistics(csv_file):
     for column in df.columns:
         mean = df[column].mean()
         median = df[column].median()
-        mode = df[column].mode().values[0]
+        mode = df[column].mode()
         quartiles = df[column].quantile([0.25, 0.5, 0.75]).values
 
         print(f"Statistics for {column}:")
@@ -16,7 +16,7 @@ def calculate_statistics(csv_file):
         print(f"Quartiles: Q1={quartiles[0]}, Q2={quartiles[1]}, Q3={quartiles[2]}")
         print()
 
-csv_file = 'captcha_data_v11_novpn_stats.csv'
+csv_file = 'captcha_data_baseline_novpn_bestmodels_stats.csv'
 calculate_statistics(csv_file)
 
 
@@ -58,3 +58,23 @@ calculate_statistics(csv_file)
 # Median: 3.0
 # Mode: 1
 # Quartiles: Q1=1.0, Q2=3.0, Q3=5.75
+
+
+# Our best model
+# Statistics for classification_type:
+# Mean: 13.72
+# Median: 1.0
+# Mode: 1
+# Quartiles: Q1=1.0, Q2=1.0, Q3=5.25
+
+# Statistics for type_2:
+# Mean: 3.42
+# Median: 1.5
+# Mode: 0
+# Quartiles: Q1=0.0, Q2=1.5, Q3=2.0
+
+# Statistics for total_attempts:
+# Mean: 17.16
+# Median: 3.0
+# Mode: 1
+# Quartiles: Q1=2.0, Q2=3.0, Q3=9.5

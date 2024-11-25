@@ -12,9 +12,9 @@ import os
 script_dir = os.path.dirname(os.path.realpath(__file__))
 
 # Construct the path to the best.pt file
-model_path = os.path.join(script_dir, 'train4', 'weights', 'best2.pt')
+# model_path = os.path.join(script_dir, 'train4', 'weights', 'best.pt')
 
-model = YOLO(model_path)
+model = YOLO("/Users/shrushtijagtap/uiuc/Fall2024/CS562/BreakV2Captcha/best-cls.pt")
 
 def predict_tile(tile_path):
     # Load the image
