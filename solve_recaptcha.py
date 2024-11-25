@@ -29,7 +29,7 @@ import logging
 
 captcha_logger = logging.getLogger('captcha_log_handler')
 captcha_logger.setLevel(logging.INFO)
-captcha_file_handler = logging.FileHandler('captcha_log_file.log')
+captcha_file_handler = logging.FileHandler('captcha_log_file_baseline_vpn.log')
 captcha_file_handler.setLevel(logging.INFO)
 captcha_formatter = logging.Formatter('%(asctime)s - %(message)s')
 captcha_file_handler.setFormatter(captcha_formatter)
@@ -55,7 +55,7 @@ TYPE1 = True #one time image selection
 TYPE2 = True #segmentation problem
 TYPE3 = True #dynamic captcha
 ENABLE_LOGS = True
-ENABLE_VPN = False
+ENABLE_VPN = True
 ENABLE_MOUSE_MOVEMENT = True
 ENABLE_NATURAL_MOUSE_MOVEMENT = True
 ENABLE_COOKIES = False

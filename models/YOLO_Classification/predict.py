@@ -14,7 +14,9 @@ script_dir = os.path.dirname(os.path.realpath(__file__))
 # Construct the path to the best.pt file
 # model_path = os.path.join(script_dir, 'train4', 'weights', 'best.pt')
 
-model = YOLO("/Users/shrushtijagtap/uiuc/Fall2024/CS562/BreakV2Captcha/best-cls.pt")
+
+model = YOLO("/Users/shrushtijagtap/uiuc/Fall2024/CS562/BreakV2Captcha/YOLOv11/runs/classify/BEST_grid_train_21/weights/best.pt")
+
 
 def predict_tile(tile_path):
     # Load the image

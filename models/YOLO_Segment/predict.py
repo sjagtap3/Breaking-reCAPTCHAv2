@@ -28,8 +28,7 @@ CLASSES = ['bicycles', 'buses', 'chimneys', 'crosswalks', 'fire_hydrants', 'moto
 MAPPING = [(0,0), (2,1), (3,7), (4,2), (5,3), (6,4), (7,5), (10,6), (11,9)] # mapping from COCO to captcha classes
 # Load a pretrained YOLOv8n model
 
-model = YOLO('/Users/shrushtijagtap/uiuc/Fall2024/CS562/BreakV2Captcha/best-seg.pt')
-
+model = YOLO('/Users/shrushtijagtap/uiuc/Fall2024/CS562/BreakV2Captcha/YOLOv11/runs/segment/best.pt')
 
 
 def predict(class_number, image_path):
