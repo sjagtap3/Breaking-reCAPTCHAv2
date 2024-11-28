@@ -1,0 +1,1438 @@
+2024-11-17 20:28:51,180 - INFO - Patching start time: 2024-11-17 20:28:51.180432
+2024-11-17 20:28:51,191 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (1).png
+2024-11-17 20:28:51,285 - INFO - Step 0, Loss: -0.03134804964065552, Predicted label: bicycle
+2024-11-17 20:28:52,962 - INFO - Step 50, Loss: -0.9960306286811829, Predicted label: car
+2024-11-17 20:28:52,962 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:28:52,962 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:28:52,983 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (10).png
+2024-11-17 20:28:53,041 - INFO - Step 0, Loss: -1.4635206753155217e-05, Predicted label: bicycle
+2024-11-17 20:28:55,117 - INFO - Step 50, Loss: -0.9537100195884705, Predicted label: car
+2024-11-17 20:28:55,588 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:28:55,588 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:28:55,620 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (100).png
+2024-11-17 20:28:55,699 - INFO - Step 0, Loss: -5.833597606397234e-05, Predicted label: bicycle
+2024-11-17 20:28:58,207 - INFO - Step 50, Loss: -0.9845324158668518, Predicted label: car
+2024-11-17 20:28:58,207 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:28:58,207 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:28:58,222 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (101).png
+2024-11-17 20:28:58,292 - INFO - Step 0, Loss: -0.00019855622667819262, Predicted label: bicycle
+2024-11-17 20:29:00,655 - INFO - Step 50, Loss: -0.9686130285263062, Predicted label: car
+2024-11-17 20:29:01,137 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:01,137 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:01,184 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (102).png
+2024-11-17 20:29:01,262 - INFO - Step 0, Loss: -0.03265172988176346, Predicted label: bicycle
+2024-11-17 20:29:03,293 - INFO - Step 50, Loss: -0.998688280582428, Predicted label: car
+2024-11-17 20:29:03,294 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:03,294 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:03,310 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (103).png
+2024-11-17 20:29:03,373 - INFO - Step 0, Loss: -0.00032658103737048805, Predicted label: bicycle
+2024-11-17 20:29:05,486 - INFO - Step 50, Loss: -0.9868068099021912, Predicted label: car
+2024-11-17 20:29:05,927 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:05,927 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:05,943 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (104).png
+2024-11-17 20:29:06,007 - INFO - Step 0, Loss: -0.008106936700642109, Predicted label: bicycle
+2024-11-17 20:29:08,030 - INFO - Step 50, Loss: -0.9877520799636841, Predicted label: car
+2024-11-17 20:29:08,031 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:08,031 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:08,062 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (105).png
+2024-11-17 20:29:08,120 - INFO - Step 0, Loss: -0.001144040608778596, Predicted label: bicycle
+2024-11-17 20:29:10,414 - INFO - Step 50, Loss: -0.9848229885101318, Predicted label: car
+2024-11-17 20:29:10,859 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:10,875 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:10,891 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (106).png
+2024-11-17 20:29:10,955 - INFO - Step 0, Loss: -0.0006303659174591303, Predicted label: bicycle
+2024-11-17 20:29:13,131 - INFO - Step 50, Loss: -0.9920673370361328, Predicted label: car
+2024-11-17 20:29:13,131 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:13,131 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:13,163 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (107).png
+2024-11-17 20:29:13,227 - INFO - Step 0, Loss: -0.010227111168205738, Predicted label: bicycle
+2024-11-17 20:29:15,443 - INFO - Step 50, Loss: -0.9805922508239746, Predicted label: car
+2024-11-17 20:29:15,453 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:15,453 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:15,486 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (108).png
+2024-11-17 20:29:15,572 - INFO - Step 0, Loss: -0.0003800309496000409, Predicted label: bicycle
+2024-11-17 20:29:17,547 - INFO - Step 50, Loss: -0.9914713501930237, Predicted label: car
+2024-11-17 20:29:17,547 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:17,547 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:17,593 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (109).png
+2024-11-17 20:29:17,675 - INFO - Step 0, Loss: -0.002007056027650833, Predicted label: bicycle
+2024-11-17 20:29:20,038 - INFO - Step 50, Loss: -0.987211287021637, Predicted label: car
+2024-11-17 20:29:20,038 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:20,038 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:20,086 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (11).png
+2024-11-17 20:29:20,167 - INFO - Step 0, Loss: -1.0717572962448685e-07, Predicted label: car
+2024-11-17 20:29:22,414 - INFO - Step 50, Loss: -0.9131730794906616, Predicted label: hydrant
+2024-11-17 20:29:23,687 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:23,687 - INFO - True label: Bicycle, Base label: car, Adversarial label: hydrant
+2024-11-17 20:29:23,715 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (110).png
+2024-11-17 20:29:23,799 - INFO - Step 0, Loss: -0.0006027013878338039, Predicted label: bicycle
+2024-11-17 20:29:25,617 - INFO - Step 50, Loss: -0.9925064444541931, Predicted label: car
+2024-11-17 20:29:25,617 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:25,617 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:25,645 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (111).png
+2024-11-17 20:29:25,724 - INFO - Step 0, Loss: -0.0018387897871434689, Predicted label: bicycle
+2024-11-17 20:29:28,096 - INFO - Step 50, Loss: -0.985609233379364, Predicted label: car
+2024-11-17 20:29:28,096 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:28,096 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:28,143 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (112).png
+2024-11-17 20:29:28,222 - INFO - Step 0, Loss: -0.017495766282081604, Predicted label: bicycle
+2024-11-17 20:29:30,379 - INFO - Step 50, Loss: -0.9889841675758362, Predicted label: car
+2024-11-17 20:29:30,379 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:30,379 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:30,427 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (113).png
+2024-11-17 20:29:30,508 - INFO - Step 0, Loss: -0.022372150793671608, Predicted label: bicycle
+2024-11-17 20:29:32,724 - INFO - Step 50, Loss: -0.9939103126525879, Predicted label: car
+2024-11-17 20:29:32,725 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:32,726 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:32,740 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (114).png
+2024-11-17 20:29:32,834 - INFO - Step 0, Loss: -0.06579823046922684, Predicted label: bicycle
+2024-11-17 20:29:35,243 - INFO - Step 50, Loss: -0.9977360963821411, Predicted label: car
+2024-11-17 20:29:35,243 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:35,243 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:35,275 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (115).png
+2024-11-17 20:29:35,355 - INFO - Step 0, Loss: -0.0017108847387135029, Predicted label: bicycle
+2024-11-17 20:29:37,629 - INFO - Step 50, Loss: -0.9866869449615479, Predicted label: car
+2024-11-17 20:29:37,629 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:37,629 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:37,670 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (116).png
+2024-11-17 20:29:37,767 - INFO - Step 0, Loss: -0.0012827462051063776, Predicted label: bicycle
+2024-11-17 20:29:39,842 - INFO - Step 50, Loss: -0.9924235343933105, Predicted label: car
+2024-11-17 20:29:39,842 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:39,842 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:39,874 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (117).png
+2024-11-17 20:29:39,938 - INFO - Step 0, Loss: -0.007821834646165371, Predicted label: bicycle
+2024-11-17 20:29:42,144 - INFO - Step 50, Loss: -0.996039628982544, Predicted label: car
+2024-11-17 20:29:42,144 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:42,144 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:42,160 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (118).png
+2024-11-17 20:29:42,240 - INFO - Step 0, Loss: -0.004317292477935553, Predicted label: bicycle
+2024-11-17 20:29:44,097 - INFO - Step 50, Loss: -0.9987173080444336, Predicted label: car
+2024-11-17 20:29:44,097 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:44,097 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:44,135 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (119).png
+2024-11-17 20:29:44,208 - INFO - Step 0, Loss: -0.02127397060394287, Predicted label: bicycle
+2024-11-17 20:29:46,259 - INFO - Step 50, Loss: -0.9862375259399414, Predicted label: car
+2024-11-17 20:29:46,259 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:46,259 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:46,274 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (12).png
+2024-11-17 20:29:46,369 - INFO - Step 0, Loss: -0.001061554765328765, Predicted label: crosswalk
+2024-11-17 20:29:48,371 - INFO - Step 50, Loss: -0.9319566488265991, Predicted label: car
+2024-11-17 20:29:48,848 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:48,848 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:48,897 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (120).png
+2024-11-17 20:29:48,976 - INFO - Step 0, Loss: -9.399224836670328e-06, Predicted label: bicycle
+2024-11-17 20:29:51,088 - INFO - Step 50, Loss: -0.9717476963996887, Predicted label: car
+2024-11-17 20:29:51,581 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:51,581 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:51,612 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (121).png
+2024-11-17 20:29:51,710 - INFO - Step 0, Loss: -0.0021694835741072893, Predicted label: bicycle
+2024-11-17 20:29:53,786 - INFO - Step 50, Loss: -0.9856299757957458, Predicted label: car
+2024-11-17 20:29:53,786 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:53,786 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:53,834 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (122).png
+2024-11-17 20:29:53,915 - INFO - Step 0, Loss: -0.00028691926854662597, Predicted label: bicycle
+2024-11-17 20:29:56,218 - INFO - Step 50, Loss: -0.9836464524269104, Predicted label: car
+2024-11-17 20:29:56,663 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:56,663 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:56,713 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (123).png
+2024-11-17 20:29:56,774 - INFO - Step 0, Loss: -0.16463179886341095, Predicted label: bicycle
+2024-11-17 20:29:59,255 - INFO - Step 50, Loss: -0.9904097318649292, Predicted label: car
+2024-11-17 20:29:59,255 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:29:59,255 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:29:59,318 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (124).png
+2024-11-17 20:29:59,398 - INFO - Step 0, Loss: -0.00018289117724634707, Predicted label: bicycle
+2024-11-17 20:30:01,668 - INFO - Step 50, Loss: -0.9330661296844482, Predicted label: car
+2024-11-17 20:30:02,013 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:02,013 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:02,053 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (125).png
+2024-11-17 20:30:02,107 - INFO - Step 0, Loss: -0.0028813593089580536, Predicted label: bicycle
+2024-11-17 20:30:04,180 - INFO - Step 50, Loss: -0.9990729093551636, Predicted label: car
+2024-11-17 20:30:04,180 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:04,180 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:04,196 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (126).png
+2024-11-17 20:30:04,290 - INFO - Step 0, Loss: -3.557777381502092e-05, Predicted label: bicycle
+2024-11-17 20:30:06,420 - INFO - Step 50, Loss: -0.988642156124115, Predicted label: car
+2024-11-17 20:30:06,420 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:06,420 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:06,452 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (127).png
+2024-11-17 20:30:06,515 - INFO - Step 0, Loss: -0.010900263674557209, Predicted label: bicycle
+2024-11-17 20:30:08,866 - INFO - Step 50, Loss: -0.9960699081420898, Predicted label: car
+2024-11-17 20:30:08,866 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:08,866 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:08,913 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (128).png
+2024-11-17 20:30:09,007 - INFO - Step 0, Loss: -1.090565930894627e-07, Predicted label: bicycle
+2024-11-17 20:30:11,067 - INFO - Step 50, Loss: -0.7820782661437988, Predicted label: car
+2024-11-17 20:30:12,401 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:12,401 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:12,432 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (129).png
+2024-11-17 20:30:12,510 - INFO - Step 0, Loss: -0.04196435585618019, Predicted label: bicycle
+2024-11-17 20:30:14,525 - INFO - Step 50, Loss: -0.9956835508346558, Predicted label: car
+2024-11-17 20:30:14,525 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:14,525 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:14,557 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (13).png
+2024-11-17 20:30:14,634 - INFO - Step 0, Loss: -0.012655181810259819, Predicted label: bicycle
+2024-11-17 20:30:16,724 - INFO - Step 50, Loss: -0.9977107048034668, Predicted label: car
+2024-11-17 20:30:16,724 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:16,724 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:16,755 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (130).png
+2024-11-17 20:30:16,849 - INFO - Step 0, Loss: -1.4805449382038205e-06, Predicted label: bicycle
+2024-11-17 20:30:18,937 - INFO - Step 50, Loss: -0.9924523234367371, Predicted label: car
+2024-11-17 20:30:20,411 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:20,411 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:20,458 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (131).png
+2024-11-17 20:30:20,567 - INFO - Step 0, Loss: -0.005975156091153622, Predicted label: bicycle
+2024-11-17 20:30:22,747 - INFO - Step 50, Loss: -0.9571465849876404, Predicted label: car
+2024-11-17 20:30:22,747 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:22,747 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:22,763 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (132).png
+2024-11-17 20:30:22,841 - INFO - Step 0, Loss: -0.19534097611904144, Predicted label: bicycle
+2024-11-17 20:30:24,916 - INFO - Step 50, Loss: -0.9920687675476074, Predicted label: car
+2024-11-17 20:30:24,916 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:24,916 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:24,947 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (133).png
+2024-11-17 20:30:25,042 - INFO - Step 0, Loss: -0.00019221290131099522, Predicted label: bicycle
+2024-11-17 20:30:27,337 - INFO - Step 50, Loss: -0.9655064940452576, Predicted label: car
+2024-11-17 20:30:27,745 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:27,745 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:27,776 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (134).png
+2024-11-17 20:30:27,855 - INFO - Step 0, Loss: -0.000644414103589952, Predicted label: bicycle
+2024-11-17 20:30:30,025 - INFO - Step 50, Loss: -0.9730662703514099, Predicted label: car
+2024-11-17 20:30:30,025 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:30,025 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:30,057 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (135).png
+2024-11-17 20:30:30,136 - INFO - Step 0, Loss: -0.001368639525026083, Predicted label: bicycle
+2024-11-17 20:30:32,270 - INFO - Step 50, Loss: -0.99755859375, Predicted label: car
+2024-11-17 20:30:32,270 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:32,270 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:32,317 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (136).png
+2024-11-17 20:30:32,412 - INFO - Step 0, Loss: -9.839063608296783e-08, Predicted label: bicycle
+2024-11-17 20:30:34,505 - INFO - Step 50, Loss: -0.9811563491821289, Predicted label: car
+2024-11-17 20:30:35,759 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:35,760 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:35,775 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (137).png
+2024-11-17 20:30:35,854 - INFO - Step 0, Loss: -1.6114643585751764e-05, Predicted label: bicycle
+2024-11-17 20:30:38,008 - INFO - Step 50, Loss: -0.9896111488342285, Predicted label: car
+2024-11-17 20:30:38,823 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:38,823 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:38,886 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (138).png
+2024-11-17 20:30:38,980 - INFO - Step 0, Loss: -0.005611286964267492, Predicted label: bicycle
+2024-11-17 20:30:41,227 - INFO - Step 50, Loss: -0.9858136773109436, Predicted label: car
+2024-11-17 20:30:41,227 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:41,227 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:41,274 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (139).png
+2024-11-17 20:30:41,353 - INFO - Step 0, Loss: -0.00019046643865294755, Predicted label: bicycle
+2024-11-17 20:30:43,692 - INFO - Step 50, Loss: -0.9860310554504395, Predicted label: car
+2024-11-17 20:30:44,054 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:44,054 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:44,086 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (14).png
+2024-11-17 20:30:44,180 - INFO - Step 0, Loss: -6.562285648215038e-07, Predicted label: bicycle
+2024-11-17 20:30:46,485 - INFO - Step 50, Loss: -0.8533048629760742, Predicted label: car
+2024-11-17 20:30:47,846 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:47,846 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:47,893 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (140).png
+2024-11-17 20:30:47,987 - INFO - Step 0, Loss: -8.963169420894701e-06, Predicted label: bicycle
+2024-11-17 20:30:50,105 - INFO - Step 50, Loss: -0.8520086407661438, Predicted label: car
+2024-11-17 20:30:51,030 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:51,030 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:51,062 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (141).png
+2024-11-17 20:30:51,140 - INFO - Step 0, Loss: -7.581808313261718e-05, Predicted label: bicycle
+2024-11-17 20:30:53,276 - INFO - Step 50, Loss: -0.9507103562355042, Predicted label: car
+2024-11-17 20:30:53,684 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:53,684 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:53,715 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (142).png
+2024-11-17 20:30:53,778 - INFO - Step 0, Loss: -0.0002773609012365341, Predicted label: bicycle
+2024-11-17 20:30:55,906 - INFO - Step 50, Loss: -0.9796236157417297, Predicted label: car
+2024-11-17 20:30:56,282 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:30:56,282 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:30:56,313 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (143).png
+2024-11-17 20:30:56,376 - INFO - Step 0, Loss: -2.955384275082906e-07, Predicted label: bicycle
+2024-11-17 20:30:58,542 - INFO - Step 50, Loss: -0.6040036678314209, Predicted label: car
+2024-11-17 20:31:00,350 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:00,350 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:00,381 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (144).png
+2024-11-17 20:31:00,459 - INFO - Step 0, Loss: -0.00281671155244112, Predicted label: bicycle
+2024-11-17 20:31:02,653 - INFO - Step 50, Loss: -0.9768552780151367, Predicted label: car
+2024-11-17 20:31:03,062 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:03,062 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:03,093 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (145).png
+2024-11-17 20:31:03,172 - INFO - Step 0, Loss: -7.514900346450304e-08, Predicted label: motorcycle
+2024-11-17 20:31:05,515 - INFO - Step 50, Loss: -0.1278555989265442, Predicted label: car
+2024-11-17 20:31:07,686 - INFO - Step 100, Loss: -0.9066959619522095, Predicted label: palm
+2024-11-17 20:31:07,686 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:07,686 - INFO - True label: Bicycle, Base label: motorcycle, Adversarial label: palm
+2024-11-17 20:31:07,717 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (146).png
+2024-11-17 20:31:07,811 - INFO - Step 0, Loss: -2.2453124870480679e-07, Predicted label: bicycle
+2024-11-17 20:31:10,072 - INFO - Step 50, Loss: -0.9385367631912231, Predicted label: car
+2024-11-17 20:31:10,934 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:10,934 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:10,962 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (147).png
+2024-11-17 20:31:11,044 - INFO - Step 0, Loss: -8.295388397527859e-06, Predicted label: bicycle
+2024-11-17 20:31:13,167 - INFO - Step 50, Loss: -0.971428632736206, Predicted label: car
+2024-11-17 20:31:13,565 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:13,575 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:13,606 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (148).png
+2024-11-17 20:31:13,685 - INFO - Step 0, Loss: -0.006049730349332094, Predicted label: bicycle
+2024-11-17 20:31:15,685 - INFO - Step 50, Loss: -0.9918214678764343, Predicted label: car
+2024-11-17 20:31:15,685 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:15,685 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:15,732 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (149).png
+2024-11-17 20:31:15,810 - INFO - Step 0, Loss: -0.02832232415676117, Predicted label: bicycle
+2024-11-17 20:31:17,772 - INFO - Step 50, Loss: -0.9872385263442993, Predicted label: car
+2024-11-17 20:31:17,772 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:17,772 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:17,788 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (15).png
+2024-11-17 20:31:17,871 - INFO - Step 0, Loss: -9.324550774181262e-06, Predicted label: bicycle
+2024-11-17 20:31:19,889 - INFO - Step 50, Loss: -0.9758740067481995, Predicted label: car
+2024-11-17 20:31:20,275 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:20,275 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:20,298 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (150).png
+2024-11-17 20:31:20,360 - INFO - Step 0, Loss: -0.002826305804774165, Predicted label: bicycle
+2024-11-17 20:31:22,353 - INFO - Step 50, Loss: -0.9806585311889648, Predicted label: car
+2024-11-17 20:31:22,825 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:22,825 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:22,856 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (151).png
+2024-11-17 20:31:22,935 - INFO - Step 0, Loss: -9.883942908572863e-08, Predicted label: bicycle
+2024-11-17 20:31:25,233 - INFO - Step 50, Loss: -0.004015369340777397, Predicted label: bicycle
+2024-11-17 20:31:27,259 - INFO - Step 100, Loss: -0.3561650812625885, Predicted label: bicycle
+2024-11-17 20:31:29,131 - INFO - Step 150, Loss: -0.830939531326294, Predicted label: car
+2024-11-17 20:31:29,131 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:29,131 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:29,147 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (152).png
+2024-11-17 20:31:29,210 - INFO - Step 0, Loss: -4.39015930169262e-05, Predicted label: bicycle
+2024-11-17 20:31:31,126 - INFO - Step 50, Loss: -0.96233069896698, Predicted label: car
+2024-11-17 20:31:31,490 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:31,490 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:31,503 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (153).png
+2024-11-17 20:31:31,581 - INFO - Step 0, Loss: -4.806393553735688e-05, Predicted label: bicycle
+2024-11-17 20:31:33,654 - INFO - Step 50, Loss: -0.7672719359397888, Predicted label: car
+2024-11-17 20:31:34,506 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:34,506 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:34,539 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (154).png
+2024-11-17 20:31:34,617 - INFO - Step 0, Loss: -4.5358380162952017e-08, Predicted label: bicycle
+2024-11-17 20:31:36,500 - INFO - Step 50, Loss: -0.967677891254425, Predicted label: car
+2024-11-17 20:31:37,581 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:37,581 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:37,600 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (155).png
+2024-11-17 20:31:37,676 - INFO - Step 0, Loss: -0.0006851429934613407, Predicted label: bicycle
+2024-11-17 20:31:39,468 - INFO - Step 50, Loss: -0.9827352166175842, Predicted label: car
+2024-11-17 20:31:39,468 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:39,468 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:39,502 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (156).png
+2024-11-17 20:31:39,563 - INFO - Step 0, Loss: -0.0021734300535172224, Predicted label: bicycle
+2024-11-17 20:31:41,365 - INFO - Step 50, Loss: -0.9846487641334534, Predicted label: car
+2024-11-17 20:31:41,726 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:41,726 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:41,742 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (157).png
+2024-11-17 20:31:41,821 - INFO - Step 0, Loss: -5.647790021612309e-05, Predicted label: bicycle
+2024-11-17 20:31:43,752 - INFO - Step 50, Loss: -0.9908005595207214, Predicted label: car
+2024-11-17 20:31:44,208 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:44,224 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:44,255 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (158).png
+2024-11-17 20:31:44,334 - INFO - Step 0, Loss: -4.661096227209782e-06, Predicted label: bicycle
+2024-11-17 20:31:46,331 - INFO - Step 50, Loss: -0.9755734801292419, Predicted label: car
+2024-11-17 20:31:47,012 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:47,012 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:47,037 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (159).png
+2024-11-17 20:31:47,115 - INFO - Step 0, Loss: -1.7521279005450197e-05, Predicted label: bicycle
+2024-11-17 20:31:49,310 - INFO - Step 50, Loss: -0.9321941137313843, Predicted label: car
+2024-11-17 20:31:50,634 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:50,634 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:50,660 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (16).png
+2024-11-17 20:31:50,738 - INFO - Step 0, Loss: -0.0054445392452180386, Predicted label: bicycle
+2024-11-17 20:31:52,763 - INFO - Step 50, Loss: -0.9611307382583618, Predicted label: car
+2024-11-17 20:31:52,763 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:52,763 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:52,778 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (160).png
+2024-11-17 20:31:52,857 - INFO - Step 0, Loss: -0.10824310034513474, Predicted label: stairs
+2024-11-17 20:31:55,235 - INFO - Step 50, Loss: -0.9991258978843689, Predicted label: car
+2024-11-17 20:31:55,235 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:55,235 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:55,282 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (161).png
+2024-11-17 20:31:55,360 - INFO - Step 0, Loss: -0.0037412799429148436, Predicted label: bicycle
+2024-11-17 20:31:57,542 - INFO - Step 50, Loss: -0.9832567572593689, Predicted label: car
+2024-11-17 20:31:57,542 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:31:57,542 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:31:57,589 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (162).png
+2024-11-17 20:31:57,667 - INFO - Step 0, Loss: -0.01126142218708992, Predicted label: bicycle
+2024-11-17 20:32:00,218 - INFO - Step 50, Loss: -0.9960887432098389, Predicted label: car
+2024-11-17 20:32:00,218 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:32:00,218 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:32:00,249 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (163).png
+2024-11-17 20:32:00,331 - INFO - Step 0, Loss: -5.578096079261741e-06, Predicted label: bicycle
+2024-11-17 20:32:02,633 - INFO - Step 50, Loss: -0.7968537211418152, Predicted label: car
+2024-11-17 20:32:04,026 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:32:04,026 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:32:04,043 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (164).png
+2024-11-17 20:32:04,121 - INFO - Step 0, Loss: -0.05910811200737953, Predicted label: bicycle
+2024-11-17 20:32:06,245 - INFO - Step 50, Loss: -0.9685511589050293, Predicted label: car
+2024-11-17 20:32:06,245 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:32:06,245 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:32:06,292 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (165).png
+2024-11-17 20:32:06,386 - INFO - Step 0, Loss: -0.00021088181529194117, Predicted label: bicycle
+2024-11-17 20:32:08,841 - INFO - Step 50, Loss: -0.992638111114502, Predicted label: car
+2024-11-17 20:32:09,279 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:32:09,279 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:32:09,311 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (166).png
+2024-11-17 20:32:09,389 - INFO - Step 0, Loss: -6.0125930758658797e-05, Predicted label: bicycle
+2024-11-17 20:32:11,301 - INFO - Step 50, Loss: -0.9383578896522522, Predicted label: car
+2024-11-17 20:32:11,771 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:32:11,772 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:32:11,788 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (167).png
+2024-11-17 20:32:11,866 - INFO - Step 0, Loss: -0.0006504041375592351, Predicted label: bicycle
+2024-11-17 20:32:14,223 - INFO - Step 50, Loss: -0.835173487663269, Predicted label: car
+2024-11-17 20:32:15,139 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:32:15,139 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:32:15,155 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (168).png
+2024-11-17 20:32:15,234 - INFO - Step 0, Loss: -0.0009513277327641845, Predicted label: bicycle
+2024-11-17 20:32:17,550 - INFO - Step 50, Loss: -0.9516360759735107, Predicted label: car
+2024-11-17 20:32:18,004 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:32:18,004 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:32:18,035 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (169).png
+2024-11-17 20:32:18,115 - INFO - Step 0, Loss: -9.173608539470024e-09, Predicted label: bicycle
+2024-11-17 20:32:20,693 - INFO - Step 50, Loss: -1.0972484005833394e-06, Predicted label: bicycle
+2024-11-17 20:32:22,938 - INFO - Step 100, Loss: -0.9791743159294128, Predicted label: car
+2024-11-17 20:32:24,656 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:32:24,656 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:32:24,687 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (17).png
+2024-11-17 20:32:24,766 - INFO - Step 0, Loss: -0.00017624285828787833, Predicted label: bicycle
+2024-11-17 20:32:26,659 - INFO - Step 50, Loss: -0.9681681990623474, Predicted label: car
+2024-11-17 20:32:27,062 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:32:27,063 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:32:27,092 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (170).png
+2024-11-17 20:32:27,182 - INFO - Step 0, Loss: -8.034532483769397e-10, Predicted label: crosswalk
+2024-11-17 20:32:29,021 - INFO - Step 50, Loss: -1.0844247722019418e-09, Predicted label: crosswalk
+2024-11-17 20:32:31,165 - INFO - Step 100, Loss: -1.5450044577036692e-09, Predicted label: crosswalk
+2024-11-17 20:32:33,445 - INFO - Step 150, Loss: -2.44508058244719e-09, Predicted label: crosswalk
+2024-11-17 20:32:35,664 - INFO - Step 200, Loss: -4.274549603167088e-09, Predicted label: crosswalk
+2024-11-17 20:32:37,785 - INFO - Step 250, Loss: -1.123558934779112e-08, Predicted label: crosswalk
+2024-11-17 20:32:39,971 - INFO - Step 300, Loss: -4.688875776537316e-08, Predicted label: crosswalk
+2024-11-17 20:32:42,250 - INFO - Step 350, Loss: -1.0494688922335627e-06, Predicted label: crosswalk
+2024-11-17 20:32:44,465 - INFO - Step 400, Loss: -2.5461264158366248e-05, Predicted label: crosswalk
+2024-11-17 20:32:47,411 - INFO - Step 450, Loss: -0.002148174215108156, Predicted label: crosswalk
+2024-11-17 20:32:50,225 - INFO - True label: Bicycle, Base label: crosswalk, Adversarial label: crosswalk
+2024-11-17 20:32:50,256 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (171).png
+2024-11-17 20:32:50,351 - INFO - Step 0, Loss: -0.0041296216659247875, Predicted label: bicycle
+2024-11-17 20:32:53,004 - INFO - Step 50, Loss: -0.9916959404945374, Predicted label: car
+2024-11-17 20:32:53,004 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:32:53,004 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:32:53,035 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (172).png
+2024-11-17 20:32:53,129 - INFO - Step 0, Loss: -1.4968655932534602e-06, Predicted label: bicycle
+2024-11-17 20:32:55,613 - INFO - Step 50, Loss: -0.9906572103500366, Predicted label: car
+2024-11-17 20:32:56,114 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:32:56,114 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:32:56,146 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (173).png
+2024-11-17 20:32:56,225 - INFO - Step 0, Loss: -2.5992325390689075e-05, Predicted label: bicycle
+2024-11-17 20:32:58,708 - INFO - Step 50, Loss: -0.988816499710083, Predicted label: car
+2024-11-17 20:32:59,150 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:32:59,150 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:32:59,188 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (174).png
+2024-11-17 20:32:59,260 - INFO - Step 0, Loss: -3.8442695426965656e-07, Predicted label: bicycle
+2024-11-17 20:33:01,738 - INFO - Step 50, Loss: -0.9549351930618286, Predicted label: car
+2024-11-17 20:33:02,667 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:02,667 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:02,713 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (175).png
+2024-11-17 20:33:02,792 - INFO - Step 0, Loss: -1.6814252603580826e-06, Predicted label: bicycle
+2024-11-17 20:33:05,138 - INFO - Step 50, Loss: -0.996847927570343, Predicted label: car
+2024-11-17 20:33:05,986 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:05,986 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:06,018 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (176).png
+2024-11-17 20:33:06,096 - INFO - Step 0, Loss: -0.0003361803537700325, Predicted label: bicycle
+2024-11-17 20:33:08,151 - INFO - Step 50, Loss: -0.9085611701011658, Predicted label: car
+2024-11-17 20:33:09,067 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:09,067 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:09,099 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (177).png
+2024-11-17 20:33:09,208 - INFO - Step 0, Loss: -0.00011327530955895782, Predicted label: bicycle
+2024-11-17 20:33:11,588 - INFO - Step 50, Loss: -0.9697808027267456, Predicted label: car
+2024-11-17 20:33:12,142 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:12,142 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:12,158 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (178).png
+2024-11-17 20:33:12,253 - INFO - Step 0, Loss: -2.865017677322612e-06, Predicted label: bicycle
+2024-11-17 20:33:14,206 - INFO - Step 50, Loss: -0.8512730598449707, Predicted label: car
+2024-11-17 20:33:15,523 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:15,523 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:15,550 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (179).png
+2024-11-17 20:33:15,645 - INFO - Step 0, Loss: -0.05586785450577736, Predicted label: bicycle
+2024-11-17 20:33:17,635 - INFO - Step 50, Loss: -0.9963362216949463, Predicted label: car
+2024-11-17 20:33:17,635 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:17,635 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:17,669 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (18).png
+2024-11-17 20:33:17,748 - INFO - Step 0, Loss: -0.0005301141645759344, Predicted label: bicycle
+2024-11-17 20:33:19,868 - INFO - Step 50, Loss: -0.9462128281593323, Predicted label: car
+2024-11-17 20:33:20,294 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:20,294 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:20,326 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (180).png
+2024-11-17 20:33:20,404 - INFO - Step 0, Loss: -0.0025910253170877695, Predicted label: bicycle
+2024-11-17 20:33:22,462 - INFO - Step 50, Loss: -0.9936184883117676, Predicted label: car
+2024-11-17 20:33:22,462 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:22,462 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:22,493 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (181).png
+2024-11-17 20:33:22,572 - INFO - Step 0, Loss: -0.0008353032753802836, Predicted label: bicycle
+2024-11-17 20:33:24,630 - INFO - Step 50, Loss: -0.9852551221847534, Predicted label: car
+2024-11-17 20:33:24,978 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:24,978 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:25,009 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (182).png
+2024-11-17 20:33:25,072 - INFO - Step 0, Loss: -0.00015139752940740436, Predicted label: bicycle
+2024-11-17 20:33:27,186 - INFO - Step 50, Loss: -0.9987315535545349, Predicted label: car
+2024-11-17 20:33:27,186 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:27,186 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:27,224 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (183).png
+2024-11-17 20:33:27,295 - INFO - Step 0, Loss: -0.002319450257346034, Predicted label: bicycle
+2024-11-17 20:33:29,305 - INFO - Step 50, Loss: -0.9905457496643066, Predicted label: car
+2024-11-17 20:33:29,305 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:29,305 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:29,337 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (184).png
+2024-11-17 20:33:29,415 - INFO - Step 0, Loss: -2.6071165848406963e-05, Predicted label: bicycle
+2024-11-17 20:33:31,630 - INFO - Step 50, Loss: -0.9754508137702942, Predicted label: car
+2024-11-17 20:33:32,067 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:32,067 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:32,099 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (185).png
+2024-11-17 20:33:32,184 - INFO - Step 0, Loss: -0.0001556625938974321, Predicted label: bicycle
+2024-11-17 20:33:34,289 - INFO - Step 50, Loss: -0.9717573523521423, Predicted label: car
+2024-11-17 20:33:34,741 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:34,741 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:34,787 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (186).png
+2024-11-17 20:33:34,881 - INFO - Step 0, Loss: -1.280348442378454e-06, Predicted label: bicycle
+2024-11-17 20:33:37,232 - INFO - Step 50, Loss: -0.9060528874397278, Predicted label: car
+2024-11-17 20:33:38,742 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:38,742 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:38,775 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (187).png
+2024-11-17 20:33:38,868 - INFO - Step 0, Loss: -3.1461754588235635e-06, Predicted label: bicycle
+2024-11-17 20:33:40,987 - INFO - Step 50, Loss: -0.24190667271614075, Predicted label: bicycle
+2024-11-17 20:33:43,137 - INFO - Step 100, Loss: -0.5198175311088562, Predicted label: car
+2024-11-17 20:33:44,864 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:44,864 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:44,889 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (188).png
+2024-11-17 20:33:45,018 - INFO - Step 0, Loss: -3.2062311561276147e-07, Predicted label: bicycle
+2024-11-17 20:33:47,184 - INFO - Step 50, Loss: -0.26455119252204895, Predicted label: bicycle
+2024-11-17 20:33:49,510 - INFO - Step 100, Loss: -0.885918140411377, Predicted label: car
+2024-11-17 20:33:50,104 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:50,104 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:50,145 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bicycle (189).png
+2024-11-17 20:33:50,259 - INFO - Step 0, Loss: -0.00025674462085589767, Predicted label: bicycle
+2024-11-17 20:33:53,277 - INFO - Step 50, Loss: -0.9902982115745544, Predicted label: car
+2024-11-17 20:33:53,277 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:53,277 - INFO - True label: Bicycle, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:53,317 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,317 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,318 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,318 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,318 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,318 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,319 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,319 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,319 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,319 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,319 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,319 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,320 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,320 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,320 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,320 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,320 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,320 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,320 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,320 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,320 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,321 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,321 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,321 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,321 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,321 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,321 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,321 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,321 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,321 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,322 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,322 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,322 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,322 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,322 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,322 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,322 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,322 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,322 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,323 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,323 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,323 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,323 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,323 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,323 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,323 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,323 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,323 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,324 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,324 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,324 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,324 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,324 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,324 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,324 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,324 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,324 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,325 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,325 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,325 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,325 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,325 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,325 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,325 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,325 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,325 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,325 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,326 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,326 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,326 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,326 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,327 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,327 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,327 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,327 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,327 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,327 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,327 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,327 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,328 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,328 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,328 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,328 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,328 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,328 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,328 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,329 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,329 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,329 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,329 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,329 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,329 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,329 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,330 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,330 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,330 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,330 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,330 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,330 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,330 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,330 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,330 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,330 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,331 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,331 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,331 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,331 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,331 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,331 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,331 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,331 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,331 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,331 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,331 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,332 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,332 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,332 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,332 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,332 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,332 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,332 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,332 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,332 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,333 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,333 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,333 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,333 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,333 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,333 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,333 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,333 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,333 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,334 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,334 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,334 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,334 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,334 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,334 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,334 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,334 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,334 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,334 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,335 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,335 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,335 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,335 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,335 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,335 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,335 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,335 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,335 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,336 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,336 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,336 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,336 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,336 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,336 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,336 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,336 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,336 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,336 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,337 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,337 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,337 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,337 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,337 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,337 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,337 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,337 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,338 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,338 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,338 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,338 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,338 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,338 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,338 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,338 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,338 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,338 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,339 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,339 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,339 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,339 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,339 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,339 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,339 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,339 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,339 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,340 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,340 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,340 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,340 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,340 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,340 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,340 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,340 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,340 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,341 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,341 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,341 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,341 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,341 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,341 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,341 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,342 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,342 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,342 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,342 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,342 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,342 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,342 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,342 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,342 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,342 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,343 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,343 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,343 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,343 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,343 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,343 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,343 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,343 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,344 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,344 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,344 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,344 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,344 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,344 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,344 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,344 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,344 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,344 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,345 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,345 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,345 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,345 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,345 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,345 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,345 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,345 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,345 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,346 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,346 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,346 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,346 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,346 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,346 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,346 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,346 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,346 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,346 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,347 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,347 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,347 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,347 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,347 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,347 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,347 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,347 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,347 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,348 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,350 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,350 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,350 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,350 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,350 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,350 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,350 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,350 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,350 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,350 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,350 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,351 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,351 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,351 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,351 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,351 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,351 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,351 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,351 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,351 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,352 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,352 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,352 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,352 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,352 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,352 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,352 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,352 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,352 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,352 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,353 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,353 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,353 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,353 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,353 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,353 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,353 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,353 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,353 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,354 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,354 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,354 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,354 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,354 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,354 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,354 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,354 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,354 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,354 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,355 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,355 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,355 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,355 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,355 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,355 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,355 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,355 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,355 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,355 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,356 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,356 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,356 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,356 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,356 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,356 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,356 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,356 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,356 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,357 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,357 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,357 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,357 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,357 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,357 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,357 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,357 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,357 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,357 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,357 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,358 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,358 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,358 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,358 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,358 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,358 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,358 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,358 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,358 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,358 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,358 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,359 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,359 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,359 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,359 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,359 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,359 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,359 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,359 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,359 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,360 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,360 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,360 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,360 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,360 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,360 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,360 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,360 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,360 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,361 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,361 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,361 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,361 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,361 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,361 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,361 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,361 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,362 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,362 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,362 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,362 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,362 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,362 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,362 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,362 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,363 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,363 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,363 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,363 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,363 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,363 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,363 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,363 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,364 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,364 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,364 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,364 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,364 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,364 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,364 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,364 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,365 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,365 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,365 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,365 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,365 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,365 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,365 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,365 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,366 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,366 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,366 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,366 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,366 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,366 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,366 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,366 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,366 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,367 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,368 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,368 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,368 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,368 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,368 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,368 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,368 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,368 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,369 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,369 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,369 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,369 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,369 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,369 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,369 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,369 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,370 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,370 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,370 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,370 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,370 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,370 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,370 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,370 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,370 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,371 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,371 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,371 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,371 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,371 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,371 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,371 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,371 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,371 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,371 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,371 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,371 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,371 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,372 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,372 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,372 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,372 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,372 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,372 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,372 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,372 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,372 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,372 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,372 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,372 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,372 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,373 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,373 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,373 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,373 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,373 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,373 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,373 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,373 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,373 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,373 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,374 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,374 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,374 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,374 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,374 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,374 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,374 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,374 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,375 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,375 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,375 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,375 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,375 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,375 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,375 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,375 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,375 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,376 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,376 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,376 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,376 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,376 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,376 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,376 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,376 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,376 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,376 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,377 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,377 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,377 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,377 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,377 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,377 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,377 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,377 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,377 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,378 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,378 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,378 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,378 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,378 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,378 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,378 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,378 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,378 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,379 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,379 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,379 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,379 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,379 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,379 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,379 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,379 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,379 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,379 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,380 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,380 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,380 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,380 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,380 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,380 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,380 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,380 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,380 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,380 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,381 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,381 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,381 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,381 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,381 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,381 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,381 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,381 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,381 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,381 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,382 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,382 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,382 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,382 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,382 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,382 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,382 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,382 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,382 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,382 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,383 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,383 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,383 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,383 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,383 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,383 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,383 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,383 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,383 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,383 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,384 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,384 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,384 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,384 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,384 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,384 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,384 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,384 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,384 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,385 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,385 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,386 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,386 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,386 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,386 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,386 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,386 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,386 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,386 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,386 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,387 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,387 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,387 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,387 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,387 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,387 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,387 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,387 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,387 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,388 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,388 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,388 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,388 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,388 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,388 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,388 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,388 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,388 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,389 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,389 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,389 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,389 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,389 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,389 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,389 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,389 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,389 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,389 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,390 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,390 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,390 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,390 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,390 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,390 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,390 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,390 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,390 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,391 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,391 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,391 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,391 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,391 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,391 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,391 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,391 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,391 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,391 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,392 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,392 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,392 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,392 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,392 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,392 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,392 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,392 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,393 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,393 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,393 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,393 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,393 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,393 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,393 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,393 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,393 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,394 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,394 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,394 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,394 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,394 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,394 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,394 - INFO - Skipping Bicycle as it has reached the max records per class
+2024-11-17 20:33:53,394 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (100).png
+2024-11-17 20:33:53,470 - INFO - Step 0, Loss: -0.07722583413124084, Predicted label: bicycle
+2024-11-17 20:33:55,726 - INFO - Step 50, Loss: -0.9928585290908813, Predicted label: car
+2024-11-17 20:33:55,727 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:55,727 - INFO - True label: Bridge, Base label: bicycle, Adversarial label: car
+2024-11-17 20:33:55,759 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (101).png
+2024-11-17 20:33:55,845 - INFO - Step 0, Loss: -4.730503277983189e-08, Predicted label: bridge
+2024-11-17 20:33:58,311 - INFO - Step 50, Loss: -0.9978030323982239, Predicted label: chimney
+2024-11-17 20:33:58,799 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:33:58,799 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 20:33:58,838 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (102).png
+2024-11-17 20:33:58,898 - INFO - Step 0, Loss: -8.082234671746846e-06, Predicted label: bridge
+2024-11-17 20:34:01,260 - INFO - Step 50, Loss: -0.9988377690315247, Predicted label: chimney
+2024-11-17 20:34:01,655 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 20:34:01,656 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 20:34:01,688 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (103).png
+2024-11-17 20:34:01,781 - INFO - Step 0, Loss: -1.0250807635451414e-13, Predicted label: bridge
+2024-11-17 20:34:03,918 - INFO - Step 50, Loss: -1.0251413433415291e-13, Predicted label: bridge
+2024-11-17 20:34:05,964 - INFO - Step 100, Loss: -1.0251960955512396e-13, Predicted label: bridge
+2024-11-17 20:34:08,104 - INFO - Step 150, Loss: -1.025256743110263e-13, Predicted label: bridge
+2024-11-17 20:34:10,139 - INFO - Step 200, Loss: -1.0253213209021617e-13, Predicted label: bridge
+2024-11-17 20:34:12,277 - INFO - Step 250, Loss: -1.025377970465674e-13, Predicted label: bridge
+2024-11-17 21:20:45,015 - INFO - Step 300, Loss: -1.0254346877918222e-13, Predicted label: bridge
+2024-11-17 21:20:49,201 - INFO - Step 350, Loss: -1.0254973004672832e-13, Predicted label: bridge
+2024-11-17 22:33:44,742 - INFO - Step 400, Loss: -1.025555982909869e-13, Predicted label: bridge
+2024-11-17 22:33:49,115 - INFO - Step 450, Loss: -1.0256166304688924e-13, Predicted label: bridge
+2024-11-17 22:34:08,678 - INFO - True label: Bridge, Base label: bridge, Adversarial label: bridge
+2024-11-17 22:34:08,715 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (104).png
+2024-11-17 22:34:08,862 - INFO - Step 0, Loss: -1.3838689483236521e-06, Predicted label: bridge
+2024-11-17 22:34:14,074 - INFO - Step 50, Loss: -0.9974525570869446, Predicted label: chimney
+2024-11-17 22:34:14,074 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:34:14,076 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:34:14,133 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (105).png
+2024-11-17 22:34:14,412 - INFO - Step 0, Loss: -6.981176170484105e-08, Predicted label: bridge
+2024-11-17 22:34:19,346 - INFO - Step 50, Loss: -0.9989125728607178, Predicted label: chimney
+2024-11-17 22:34:20,486 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:34:20,493 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:34:20,534 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (106).png
+2024-11-17 22:34:20,726 - INFO - Step 0, Loss: -2.571785273630667e-07, Predicted label: bridge
+2024-11-17 22:34:25,398 - INFO - Step 50, Loss: -0.9897760152816772, Predicted label: chimney
+2024-11-17 22:34:26,864 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:34:26,865 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:34:26,939 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (107).png
+2024-11-17 22:34:27,315 - INFO - Step 0, Loss: -8.407075142713438e-07, Predicted label: bridge
+2024-11-17 22:34:36,395 - INFO - Step 50, Loss: -0.9978075623512268, Predicted label: chimney
+2024-11-17 22:34:39,796 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:34:39,812 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:34:39,970 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (108).png
+2024-11-17 22:34:40,579 - INFO - Step 0, Loss: -5.6267977015522774e-06, Predicted label: bridge
+2024-11-17 22:34:55,337 - INFO - Step 50, Loss: -0.9994195699691772, Predicted label: chimney
+2024-11-17 22:34:55,339 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:34:55,340 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:34:55,617 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (109).png
+2024-11-17 22:34:56,804 - INFO - Step 0, Loss: -1.0869606740016025e-05, Predicted label: bridge
+2024-11-17 22:35:11,562 - INFO - Step 50, Loss: -0.9993270635604858, Predicted label: chimney
+2024-11-17 22:35:11,563 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:35:11,564 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:35:11,653 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (110).png
+2024-11-17 22:35:11,859 - INFO - Step 0, Loss: -2.4861167275957996e-06, Predicted label: bridge
+2024-11-17 22:35:18,436 - INFO - Step 50, Loss: -0.9992616772651672, Predicted label: chimney
+2024-11-17 22:35:18,436 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:35:18,436 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:35:18,480 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (111).png
+2024-11-17 22:35:18,561 - INFO - Step 0, Loss: -3.9162500797829125e-07, Predicted label: bridge
+2024-11-17 22:35:21,164 - INFO - Step 50, Loss: -0.9959630370140076, Predicted label: chimney
+2024-11-17 22:35:21,824 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:35:21,824 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:35:21,855 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (112).png
+2024-11-17 22:35:21,934 - INFO - Step 0, Loss: -1.5039161027630144e-09, Predicted label: bridge
+2024-11-17 22:35:25,031 - INFO - Step 50, Loss: -0.00650620274245739, Predicted label: other
+2024-11-17 22:35:28,611 - INFO - Step 100, Loss: -0.9892186522483826, Predicted label: chimney
+2024-11-17 22:35:29,520 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:35:29,520 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:35:29,566 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (113).png
+2024-11-17 22:35:29,692 - INFO - Step 0, Loss: -5.830488869484896e-10, Predicted label: bridge
+2024-11-17 22:35:35,983 - INFO - Step 50, Loss: -4.115126017723014e-09, Predicted label: bridge
+2024-11-17 22:35:41,439 - INFO - Step 100, Loss: -0.9910708665847778, Predicted label: chimney
+2024-11-17 22:35:43,401 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:35:43,401 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:35:43,437 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (114).png
+2024-11-17 22:35:43,537 - INFO - Step 0, Loss: -1.4242003089748323e-05, Predicted label: bridge
+2024-11-17 22:35:46,507 - INFO - Step 50, Loss: -0.997912585735321, Predicted label: chimney
+2024-11-17 22:35:46,510 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:35:46,510 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:35:46,539 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (115).png
+2024-11-17 22:35:46,696 - INFO - Step 0, Loss: -1.9760483382924576e-07, Predicted label: bridge
+2024-11-17 22:35:49,710 - INFO - Step 50, Loss: -0.9981254935264587, Predicted label: chimney
+2024-11-17 22:35:50,221 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:35:50,222 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:35:50,290 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (116).png
+2024-11-17 22:35:50,400 - INFO - Step 0, Loss: -5.059717750555137e-06, Predicted label: bridge
+2024-11-17 22:35:53,490 - INFO - Step 50, Loss: -0.9998310804367065, Predicted label: chimney
+2024-11-17 22:35:53,490 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:35:53,490 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:35:53,537 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (117).png
+2024-11-17 22:35:53,677 - INFO - Step 0, Loss: -3.1416286239149827e-10, Predicted label: bridge
+2024-11-17 22:35:56,683 - INFO - Step 50, Loss: -3.524615044270263e-10, Predicted label: bridge
+2024-11-17 22:36:00,424 - INFO - Step 100, Loss: -3.99868277378701e-10, Predicted label: bridge
+2024-11-17 22:36:03,767 - INFO - Step 150, Loss: -4.594481461950295e-10, Predicted label: bridge
+2024-11-17 22:36:06,443 - INFO - Step 200, Loss: -5.402696623413306e-10, Predicted label: bridge
+2024-11-17 22:36:09,237 - INFO - Step 250, Loss: -6.622297710201508e-10, Predicted label: bridge
+2024-11-17 22:36:12,208 - INFO - Step 300, Loss: -8.645108517946198e-10, Predicted label: bridge
+2024-11-17 22:36:15,282 - INFO - Step 350, Loss: -1.2391356829510869e-09, Predicted label: bridge
+2024-11-17 22:36:17,947 - INFO - Step 400, Loss: -1.96551597220207e-09, Predicted label: bridge
+2024-11-17 22:36:20,480 - INFO - Step 450, Loss: -3.4942551074834682e-09, Predicted label: bridge
+2024-11-17 22:36:22,992 - INFO - True label: Bridge, Base label: bridge, Adversarial label: bridge
+2024-11-17 22:36:23,035 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (118).png
+2024-11-17 22:36:23,176 - INFO - Step 0, Loss: -3.3819451346062124e-06, Predicted label: bridge
+2024-11-17 22:36:25,730 - INFO - Step 50, Loss: -0.997678816318512, Predicted label: chimney
+2024-11-17 22:36:25,730 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:36:25,730 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:36:25,745 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (119).png
+2024-11-17 22:36:25,855 - INFO - Step 0, Loss: -4.822283461436427e-09, Predicted label: bridge
+2024-11-17 22:36:28,414 - INFO - Step 50, Loss: -0.5609274506568909, Predicted label: chimney
+2024-11-17 22:36:30,125 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:36:30,125 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:36:30,172 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (120).png
+2024-11-17 22:36:30,267 - INFO - Step 0, Loss: -1.7199894841724017e-07, Predicted label: bridge
+2024-11-17 22:36:32,604 - INFO - Step 50, Loss: -0.9963221549987793, Predicted label: chimney
+2024-11-17 22:36:32,958 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:36:32,958 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:36:32,974 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (121).png
+2024-11-17 22:36:33,091 - INFO - Step 0, Loss: -1.1611564332270063e-07, Predicted label: bridge
+2024-11-17 22:36:37,663 - INFO - Step 50, Loss: -0.9987329840660095, Predicted label: chimney
+2024-11-17 22:36:38,642 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:36:38,642 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:36:38,728 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (122).png
+2024-11-17 22:36:38,864 - INFO - Step 0, Loss: -3.590973574318923e-05, Predicted label: bridge
+2024-11-17 22:36:43,744 - INFO - Step 50, Loss: -0.9993755221366882, Predicted label: chimney
+2024-11-17 22:36:43,745 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:36:43,745 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:36:43,808 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (123).png
+2024-11-17 22:36:43,966 - INFO - Step 0, Loss: -1.6383614820369985e-07, Predicted label: bridge
+2024-11-17 22:36:48,240 - INFO - Step 50, Loss: -0.9971831440925598, Predicted label: chimney
+2024-11-17 22:36:49,086 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:36:49,086 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:36:49,128 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (124).png
+2024-11-17 22:36:49,237 - INFO - Step 0, Loss: -2.1504147795781137e-08, Predicted label: bridge
+2024-11-17 22:36:53,670 - INFO - Step 50, Loss: -0.9979887008666992, Predicted label: chimney
+2024-11-17 22:36:55,400 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:36:55,400 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:36:55,464 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (125).png
+2024-11-17 22:36:55,606 - INFO - Step 0, Loss: -1.4101626533147282e-09, Predicted label: bridge
+2024-11-17 22:37:00,434 - INFO - Step 50, Loss: -4.580993806513334e-09, Predicted label: bridge
+2024-11-17 22:37:05,086 - INFO - Step 100, Loss: -7.17547976591959e-08, Predicted label: bridge
+2024-11-17 22:37:09,657 - INFO - Step 150, Loss: -0.99395352602005, Predicted label: chimney
+2024-11-17 22:37:11,556 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:37:11,572 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:37:11,622 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (126).png
+2024-11-17 22:37:11,777 - INFO - Step 0, Loss: -1.3906416995723703e-07, Predicted label: bridge
+2024-11-17 22:37:16,818 - INFO - Step 50, Loss: -0.9993846416473389, Predicted label: chimney
+2024-11-17 22:37:16,818 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:37:16,818 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:37:16,875 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (127).png
+2024-11-17 22:37:16,987 - INFO - Step 0, Loss: -2.0254589117030264e-07, Predicted label: bridge
+2024-11-17 22:37:21,764 - INFO - Step 50, Loss: -0.9949740171432495, Predicted label: chimney
+2024-11-17 22:37:22,753 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:37:22,756 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:37:22,793 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (128).png
+2024-11-17 22:37:22,948 - INFO - Step 0, Loss: -7.154756167437881e-05, Predicted label: bridge
+2024-11-17 22:37:28,008 - INFO - Step 50, Loss: -0.9954698085784912, Predicted label: chimney
+2024-11-17 22:37:28,008 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:37:28,008 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:37:28,100 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (129).png
+2024-11-17 22:37:28,245 - INFO - Step 0, Loss: -2.859697900703395e-08, Predicted label: bridge
+2024-11-17 22:37:32,793 - INFO - Step 50, Loss: -0.999213695526123, Predicted label: chimney
+2024-11-17 22:37:33,788 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:37:33,788 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:37:33,852 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (130).png
+2024-11-17 22:37:34,236 - INFO - Step 0, Loss: -4.9532750381331425e-06, Predicted label: bridge
+2024-11-17 22:37:38,955 - INFO - Step 50, Loss: -0.9971645474433899, Predicted label: chimney
+2024-11-17 22:37:40,053 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:37:40,054 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:37:40,105 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (131).png
+2024-11-17 22:37:40,214 - INFO - Step 0, Loss: -3.7254963558552845e-07, Predicted label: bridge
+2024-11-17 22:37:43,814 - INFO - Step 50, Loss: -0.9981923699378967, Predicted label: chimney
+2024-11-17 22:37:44,388 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:37:44,388 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:37:44,426 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (132).png
+2024-11-17 22:37:44,547 - INFO - Step 0, Loss: -0.00024945594486780465, Predicted label: bridge
+2024-11-17 22:37:47,474 - INFO - Step 50, Loss: -0.9981241822242737, Predicted label: chimney
+2024-11-17 22:37:47,474 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:37:47,474 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:37:47,537 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (133).png
+2024-11-17 22:37:47,662 - INFO - Step 0, Loss: -8.483403313164217e-09, Predicted label: bridge
+2024-11-17 22:37:50,344 - INFO - Step 50, Loss: -0.9719886183738708, Predicted label: chimney
+2024-11-17 22:37:52,213 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:37:52,213 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:37:52,244 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (134).png
+2024-11-17 22:37:52,405 - INFO - Step 0, Loss: -2.5279621951312947e-08, Predicted label: bridge
+2024-11-17 22:37:55,253 - INFO - Step 50, Loss: -0.9587154984474182, Predicted label: chimney
+2024-11-17 22:37:56,774 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:37:56,774 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:37:56,829 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (135).png
+2024-11-17 22:37:56,963 - INFO - Step 0, Loss: -0.00023582714493386447, Predicted label: other
+2024-11-17 22:37:59,615 - INFO - Step 50, Loss: -0.999560534954071, Predicted label: chimney
+2024-11-17 22:37:59,615 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:37:59,615 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:37:59,671 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (136).png
+2024-11-17 22:37:59,816 - INFO - Step 0, Loss: -9.656950084035998e-08, Predicted label: bridge
+2024-11-17 22:38:04,137 - INFO - Step 50, Loss: -0.9959672689437866, Predicted label: chimney
+2024-11-17 22:38:04,820 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:38:04,831 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:38:04,850 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (137).png
+2024-11-17 22:38:04,976 - INFO - Step 0, Loss: -1.600131938062077e-08, Predicted label: bridge
+2024-11-17 22:38:07,958 - INFO - Step 50, Loss: -0.991727352142334, Predicted label: chimney
+2024-11-17 22:38:08,617 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:38:08,617 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:38:08,633 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (138).png
+2024-11-17 22:38:08,728 - INFO - Step 0, Loss: -0.004386598244309425, Predicted label: bridge
+2024-11-17 22:38:10,941 - INFO - Step 50, Loss: -0.9986214637756348, Predicted label: chimney
+2024-11-17 22:38:10,941 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:38:10,941 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:38:10,972 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (139).png
+2024-11-17 22:38:11,066 - INFO - Step 0, Loss: -1.0500802005708465e-07, Predicted label: bridge
+2024-11-17 22:38:13,478 - INFO - Step 50, Loss: -0.6260000467300415, Predicted label: chimney
+2024-11-17 22:38:15,276 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:38:15,276 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:38:15,327 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (140).png
+2024-11-17 22:38:15,434 - INFO - Step 0, Loss: -3.1111376301851124e-06, Predicted label: bridge
+2024-11-17 22:38:17,774 - INFO - Step 50, Loss: -0.9993273019790649, Predicted label: chimney
+2024-11-17 22:38:17,774 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:38:17,774 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:38:17,812 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (141).png
+2024-11-17 22:38:17,934 - INFO - Step 0, Loss: -5.873659197908054e-11, Predicted label: bridge
+2024-11-17 22:38:20,647 - INFO - Step 50, Loss: -6.382711720265277e-11, Predicted label: bridge
+2024-11-17 22:38:23,278 - INFO - Step 100, Loss: -7.10004346982096e-11, Predicted label: bridge
+2024-11-17 22:38:27,189 - INFO - Step 150, Loss: -8.213350138897013e-11, Predicted label: bridge
+2024-11-17 22:38:32,009 - INFO - Step 200, Loss: -1.0177187564908152e-10, Predicted label: bridge
+2024-11-17 22:38:38,930 - INFO - Step 250, Loss: -1.4224604827361986e-10, Predicted label: bridge
+2024-11-17 22:38:46,863 - INFO - Step 300, Loss: -2.4797250364194667e-10, Predicted label: bridge
+2024-11-17 22:38:52,922 - INFO - Step 350, Loss: -7.137961333114617e-10, Predicted label: bridge
+2024-11-17 22:38:58,876 - INFO - Step 400, Loss: -1.300738858844852e-07, Predicted label: bridge
+2024-11-17 22:39:03,891 - INFO - Step 450, Loss: -0.9984564781188965, Predicted label: chimney
+2024-11-17 22:39:04,864 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:39:04,864 - INFO - True label: Bridge, Base label: bridge, Adversarial label: chimney
+2024-11-17 22:39:04,912 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (142).png
+2024-11-17 22:39:04,990 - INFO - Step 0, Loss: -1.8711201477117356e-08, Predicted label: car
+2024-11-17 22:39:07,294 - INFO - Step 50, Loss: -0.9836471676826477, Predicted label: hydrant
+2024-11-17 22:39:08,847 - INFO - Target class matched for 5 consecutive steps. Stopping training.
+2024-11-17 22:39:08,847 - INFO - True label: Bridge, Base label: car, Adversarial label: hydrant
+2024-11-17 22:39:08,891 - INFO - Loading image from ..\..\yolov11_breaker\ds\img\Bridge (143).png
+2024-11-17 22:39:08,991 - INFO - Step 0, Loss: -2.9884969876547984e-07, Predicted label: bridge
+2024-11-17 22:39:11,640 - INFO - Step 50, Loss: -0.9781579375267029, Predicted label: chimney

@@ -1,0 +1,8 @@
+2024-11-21 16:30:24,438 - INFO - Patching start time: 2024-11-21 16:30:24.438214
+2024-11-21 16:30:24,485 - INFO - True label: bicycle, Intended Adversarial label: car
+2024-11-21 16:31:36,186 - INFO - **** True Label: bicycle, Adversarial Label: car, Skipped: 767, Retrained: 12
+2024-11-21 16:31:36,186 - INFO - True label: bridge, Intended Adversarial label: chimney
+2024-11-21 16:32:25,188 - INFO - **** True Label: bridge, Adversarial Label: chimney, Skipped: 528, Retrained: 4
+2024-11-21 16:32:25,188 - INFO - True label: bus, Intended Adversarial label: crosswalk
+2024-11-21 16:34:12,155 - INFO - **** True Label: bus, Adversarial Label: crosswalk, Skipped: 1200, Retrained: 8
+2024-11-21 16:34:12,155 - INFO - True label: car, Intended Adversarial label: hydrant
