@@ -50,3 +50,5 @@ This project has the following directory structure:
    - `finetune_yolov11.py`: this file is used to train the YOLOv11 model on CAPTCHA images. It is inspired by the original training code from Plesner et al.
 
 
+## Report
+https://drive.google.com/file/d/1AGsh4l8Q2dqwQLwdEXlvrMVnkNtpMMAS/view?usp=sharing
